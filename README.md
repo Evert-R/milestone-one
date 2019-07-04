@@ -12,6 +12,10 @@ Milestone-1
 
 ## Technologies Used
 
+- Jquery/bootstrap - Dropdown Menu
+
+
+
 ## Testing
 
 ## Deployment
