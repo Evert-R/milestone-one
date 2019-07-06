@@ -5,18 +5,19 @@ De Ware Boembep
 ## UX
 This website is for the hip-hop group "The Chill Oud Posse". Who just put out a 12" vinyl record last year to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. This will be the website to download and stream the music digitally. You can also view the video of the release party and see all the artwork that was included in this limited vinyl edition. You can follow links to the recordlabel to buy the actual vinyl record, and to different socialmedia profiles.
 
-User stories :
+### User stories
 
-01- As a user I want to be able to listen to the music that's on the record.
-02- As a user I want to be able to download the digital version of the music.
-03- As a user i want to be able to buy the actual record
-04- As a user i want to see the video of the releaseparty
-05- As a user i want to be able to read how the project came together
-06- As a user i want to be able to get in contact with the musicians
-07- As a user i want to be alble to read some info about the bandmembers
-08- As a user i want to see the artwork of the record
-09- As a user i want to follow links to social media pages of the members
+- As a user I want to be able to listen to the music that's on the record.
+- As a user I want to be able to download the digital version of the music.
+- As a user i want to be able to buy the actual record
+- As a user i want to see the video of the releaseparty
+- As a user i want to be able to read how the project came together
+- As a user i want to be able to get in contact with the musicians
+- As a user i want to be alble to read some info about the bandmembers
+- As a user i want to see the artwork of the record
+- As a user i want to follow links to social media pages of the members
 
+### Mocku-ups
 The mock-ups for this project are in the UXD folder wich you will find in the root of this project.
 
 ## Features
