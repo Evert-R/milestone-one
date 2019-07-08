@@ -28,15 +28,17 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 
 ### Features Left to Implement
 - Icons in the upper right corner of the sections to make that section cover the screen
-- On larger screens there are social links allways visible on the left
+- On larger screens there are social links (icons) allways visible on the left
 - Embedded soundcloud playlist to stream the music digitally
 - Download section for the individual tracks as MP3 or FLAC
+- Image carroussel to showcase the cover art-work
+- Embedded Youtube player with the releaseparty video
 
 ## Technologies Used
 
 - Jquery/bootstrap - Dropdown Menu
 - Photoshop CS6 - Image editing (https://www.adobe.com/products/cs6.html)
-- Steinberg Cubase 10 - Convert music to Mp3/FLAC (https://new.steinberg.net/cubase/)
+- Steinberg Cubase 10 - Converting music to Mp3/FLAC (https://new.steinberg.net/cubase/)
 
 
 ## Testing
