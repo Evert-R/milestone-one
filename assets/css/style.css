@@ -6,15 +6,35 @@ body {
     background-size: contain;
 }
 
-nav {
+nav, footer {
+    min-height: 7vh;
     background-color: rgba(60,60,60);
     color: white;
 }
 
+.er-brand {
+    margin-left: 25px;
+}
+.er-nav-icons {
+   position: absolute;
+   right: 0px;
+   margin-right: 25px;
+}
+
+.er-menu-icon {
+    font-size: 2em;
+}
+
+.er-nav-boembep {
+    position: absolute;
+    left: 50vw;
+    transform:translateX(-50%)
+    
+}
 
 /* ----------------------------------------Section template with snapping to top */
 
-.content {
+.er-content {
     min-height: 100vh;
     scroll-snap-align: start;
 }
@@ -22,21 +42,36 @@ nav {
 /* ----------------------------------------Sections */
 
 #frontpage {
-    background-color: rgba(100,100,100,0.96);
-}
-
-#audio {
-    background-color: rgba(223, 223, 223, 0.96);
+/*    background-color: rgba(100,100,100,0.96); */
 }
 
 #info {
-    background-color: rgba(100, 100, 100, 0.96);
-}
-
-#art {
     background-color: rgba(223, 223, 223, 0.96);
 }
 
-#video {
+#music {
     background-color: rgba(100, 100, 100, 0.96);
+}
+
+#download {
+    background-color: rgba(223, 223, 223, 0.96);
+}
+
+#art {
+    background-color: rgba(100, 100, 100, 0.96);
+}
+
+#video {
+    background-color: rgba(223, 223, 223, 0.96);
+}
+
+
+footer {
+
+}
+
+@media(min-width: 992px) {
+
+
+
 }
