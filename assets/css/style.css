@@ -14,6 +14,10 @@ body {
     padding-right: 0px;
 }
 
+.row {
+    margin: 0;
+}
+
 p {
     margin-right: 50px;
     text-align: justify;
@@ -204,6 +208,13 @@ footer {
     top: 86vh;
     height: 4vh;
     width: 100%;
+}
+
+.er-scroll-image {
+    width: 99vw;
+    height: 35vh;
+    background: url("../images/cover-inside.jpg") no-repeat fixed center;
+    background-size: cover;
 }
 
 footer {}
