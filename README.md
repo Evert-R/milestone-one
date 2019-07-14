@@ -27,6 +27,7 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - Sticky top menu, wich makes it 'feel' like different pages
 
 ### Features Left to Implement
+- animated sticker on the front cover 
 - Icons in the upper right corner of the sections to make that section cover the screen
 - On larger screens there are social links (icons) allways visible on the left
 - Embedded soundcloud playlist to stream the music digitally

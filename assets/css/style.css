@@ -74,7 +74,7 @@ nav, footer {
 /* ----------------------------------------Section-colors */
 
 #frontpage {
-    /*    background-color: rgba(100,100,100,0.96); */
+    scroll-snap-align: none;
 }
 
 #info {
@@ -121,7 +121,53 @@ nav, footer {
     margin: 3vh 0px 0px 0px;
     width: 100%;
     min-height: 60vh;
-    /*   background-color: rgba(100, 100, 100, 0.1); */
+
+}
+
+.er-sticker {
+    position: absolute;
+    top: 10vh;
+    right: 8vw;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: -4px 2px 7px rgba(60, 60, 60);
+}
+
+.er-frontpage-download {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 51vw;
+    transform: translate(-50%, -50%);
+    top: 57vh;
+    text-align: center;
+}
+
+.er-button {
+    font-size: 3em;
+    color: rgba(60, 60, 60);
+    padding: 12px 30px 8px 30px;
+    border-color: rgba(60, 60, 60);
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: -4px 2px 7px rgba(60, 60, 60);
+    background-color: rgba(255, 255, 255, 0.83);
+    transition-property: background-color;
+    transition-duration: 120ms;
+    transition-timing-function: ease-in-out;
+}
+
+.er-button:hover {
+    color: rgba(255, 255, 255);
+    background-color: rgba(60, 60, 60);
+}
+
+.er-button:active {
+    outline: 0;
+    color: rgba(255, 255, 255);
+    background-color: rgba(60, 60, 60);
+    box-shadow: 0px 0px 25px rgba(60, 60, 60);
 }
 
 .er-content-header {
@@ -235,6 +281,12 @@ footer {}
     @media(min-width: 992px) {
         p {
             margin-right: 50px;
+        }
+        .er-sticker {
+            top: 20vh;
+            right: 6vw;
+            width: 150px;
+            height: 150px;
         }
         .er-content-left {
             width: 100%;
