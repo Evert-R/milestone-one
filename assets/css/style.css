@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
 body {
     scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
     background: url("../images/front-transpa.png") no-repeat fixed center;
     background-size: contain;
     font-family: 'Source Code Pro', monospace;
@@ -19,25 +20,20 @@ body {
 }
 
 p {
-    margin-right: 50px;
     text-align: justify;
 }
 
-h1,
-h4,
-h5 {
+h1, h4, h5 {
     font-family: 'Radley', sans-serif;
     text-align: center;
 }
 
-h2,
-h3 {
+h2, h3 {
     font-family: 'Source Code Pro', monospace;
     text-align: center;
     font-size: 20px;
     margin: 25px;
 }
-
 
 /* ----------------------------------------Navbar/header */
 
@@ -45,8 +41,11 @@ h3 {
     margin: auto;
 }
 
-nav,
-footer {
+.navbar {
+    padding: 0px 0px;
+}
+
+nav, footer {
     height: 8vh;
     background-color: rgba(60, 60, 60);
     color: white;
@@ -57,9 +56,7 @@ footer {
 }
 
 .er-nav-icons {
-    position: absolute;
-    right: 0px;
-    margin-right: 25px;
+    margin: auto;
 }
 
 .er-menu-icon {
@@ -73,7 +70,6 @@ footer {
     letter-spacing: 8px;
     font-weight: 100;
 }
-
 
 /* ----------------------------------------Section-colors */
 
@@ -101,7 +97,6 @@ footer {
     background-color: rgba(223, 223, 223, 0.96);
 }
 
-
 /* ----------------------------------------Section template with snapping to top */
 
 .er-content {
@@ -111,7 +106,6 @@ footer {
     margin: 0;
 }
 
-
 /* ----------------------------------------Section content */
 
 .er-content-wrapper {
@@ -120,7 +114,6 @@ footer {
     margin-right: auto;
     padding-top: 8vh;
 }
-
 
 /* ----------------------------------------Section Content building blocks */
 
@@ -140,6 +133,7 @@ footer {
     line-height: 6vh;
     margin-left: 33%;
     transform: rotate(0deg);
+    box-shadow: 1px 1px 1px #ffffffa1;
     background-color: rgba(255, 255, 255, 0.61);
 }
 
@@ -150,6 +144,7 @@ footer {
     overflow: hidden;
     line-height: 6vh;
     margin-right: 33%;
+    box-shadow: 5px 5px 5px #a59172;
     transform: rotate(-1deg);
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -157,8 +152,10 @@ footer {
 .er-header-text {
     margin-right: 15px;
     font-family: 'Allerta Stencil', sans-serif;
+    font-weight: 100;
     font-size: 6vh;
     letter-spacing: 5px;
+    text-shadow: 1px 1px 1px #ffffffa1;
     color: rgba(207, 190, 160);
 }
 
@@ -167,16 +164,20 @@ footer {
     margin-left: 15px;
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 5vh;
+    font-weight: 100;
     letter-spacing: 5px;
+    text-shadow: 1px 1px 2px #000000a1;
     color: rgba(207, 190, 160);
 }
 
 .er-content-left {
     width: 100%;
+    margin: auto;
     overflow: hidden;
     border-radius: 50%;
     position: relative;
     top: 50%;
+    box-shadow: 5px 5px 5px #a59172;
     transform: translateY(-50%);
 }
 
@@ -187,8 +188,10 @@ footer {
 }
 
 .er-content-right {
-    height: 100%;
     padding: 15px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     /*   background-color: rgba(100, 100, 100, 0.3);  */
 }
 
@@ -198,7 +201,8 @@ footer {
     width: 200px;
     height: 200px;
     border: 0px;
-    border-radius: 8px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #a59172;
     float: right;
     transform: rotate(7deg);
 }
@@ -219,4 +223,20 @@ footer {
 
 footer {}
 
-@media(max-width: 992px) {}
+@media(min-width: 576px) {
+    .er-nav-icons {
+        position: absolute;
+        right: 0px;
+        margin-right: 25px;
+    }
+    .er-content-left {
+        width: 65%;
+    }
+    @media(min-width: 992px) {
+        p {
+            margin-right: 50px;
+        }
+        .er-content-left {
+            width: 100%;
+        }
+    }
