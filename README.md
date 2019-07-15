@@ -27,6 +27,7 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - Sticky top menu, wich makes it 'feel' like multiple pages
 
 ### Features Left to Implement
+- fix icons for the hearing-impaired
 - Icons in the upper right corner of the sections to make that section cover the screen
 - On larger screens there are social links (icons) allways visible on the left
 - Embedded soundcloud playlist to stream the music digitally
@@ -39,6 +40,7 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 
 ## Technologies Used
 
+- responsive iframe for youtube - (https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php)
 - Jquery/bootstrap - Dropdown Menu
 - Photoshop CS6 - Image editing (https://www.adobe.com/products/cs6.html)
 - Steinberg Cubase 10 - Converting music to Mp3/FLAC (https://new.steinberg.net/cubase/)
