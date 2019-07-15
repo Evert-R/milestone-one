@@ -96,15 +96,15 @@ nav, footer {
 }
 
 #download {
-    background-color: rgba(223, 223, 223, 0.96);
+    background-color: rgba(207, 190, 160, 0.92);
 }
 
 #art {
-    background-color: rgba(100, 100, 100, 0.96);
+    background-color: rgba(207, 190, 160, 0.92);
 }
 
 #video {
-    background-color: rgba(223, 223, 223, 0.96);
+    background-color: rgba(207, 190, 160, 0.92);
 }
 
 /* ----------------------------------------Section template with snapping to top */
@@ -274,11 +274,31 @@ nav, footer {
     width: 100vw;
     height: 40vh;
     background-color: rgba(207, 190, 160, 0.92);
-    background-image: url("../images/cover-inside.jpg");
     background-position: center center;
     background-attachment: fixed;
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+#er-scroll-first {
+    background-image: url("../images/inside-right.jpg");
+}
+
+#er-scroll-second {
+    background-image: url("../images/inside-left.jpg");
+}
+
+#er-scroll-third {
+    background-image: url("../images/inlay-breehuys.jpg");
+}
+
+#er-scroll-fourth {
+    background-image: url("../images/inlay-kese.jpg");
+}
+
+#back-cover{
+    background: url("../images/cover-back.jpg") no-repeat fixed center;
+    background-size: contain;
 }
 
 footer {}

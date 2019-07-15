@@ -24,16 +24,18 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 
 ### Existing Features
 - Long scrollable page with snapping to the sections
-- Sticky top menu, wich makes it 'feel' like different pages
+- Sticky top menu, wich makes it 'feel' like multiple pages
 
 ### Features Left to Implement
-- animated sticker on the front cover 
 - Icons in the upper right corner of the sections to make that section cover the screen
 - On larger screens there are social links (icons) allways visible on the left
 - Embedded soundcloud playlist to stream the music digitally
 - Download section for the individual tracks as MP3 or FLAC
 - Image carroussel to showcase the cover art-work
 - Embedded Youtube player with the releaseparty video
+
+### Optional features
+- animate the sticker on the front cover 
 
 ## Technologies Used
 
