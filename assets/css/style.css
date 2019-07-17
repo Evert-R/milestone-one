@@ -56,7 +56,7 @@ h2 {
 }
 
 nav, footer {
-    height: 8vh;
+    min-height: 8vh;
     background-color: rgba(60, 60, 60);
     color: white;
 }
@@ -254,18 +254,19 @@ nav, footer {
 .er-content-video {
     width: 100%;
     height: 100%;
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
 }
 
 .er-video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .er-content-thirds {
@@ -317,13 +318,25 @@ nav, footer {
     background-image: url("../images/inlay-kese.jpg");
 }
 
-#back-cover{
+#back-cover {
     background: url("../images/cover-back.jpg") no-repeat fixed center;
     background-size: contain;
 }
 
-footer {
-    min-height: 20vh;
+.er-footer {
+    min-height: 30vh;
+}
+
+.er-footer-links p {
+    text-align: center;
+}
+
+.er-footer-social p{
+    text-align: center;
+}
+
+.er-footer-credits p {
+ text-align: center;
 }
 
 @media(min-width: 576px) {

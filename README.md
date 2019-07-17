@@ -40,6 +40,7 @@ De Ware Boembep
 - Static pictures below the sections for a nice scrolling effect
 - Option to switch to the dutch language.
 
+
 ### User stories
 
 - As a user I want to be able to listen to the music that's on the record.
@@ -69,6 +70,7 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - Download section for the individual tracks as MP3 or FLAC
 - Image carroussel to showcase the cover art-work
 - Embedded Youtube player with the releaseparty video
+- switch long arrow for short arrows left and right
 
 ### Optional features
 - animate the sticker on the front cover 
