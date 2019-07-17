@@ -322,7 +322,9 @@ nav, footer {
     background-size: contain;
 }
 
-footer {}
+footer {
+    min-height: 20vh;
+}
 
 @media(min-width: 576px) {
     .er-nav-icons {

@@ -3,7 +3,42 @@
 De Ware Boembep
  
 ## UX
-This website is for the hip-hop group "The Chill Oud Posse". Who just put out a 12" vinyl record last year to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. This will be the website to download and stream the music digitally. You can also view the video of the release party and see all the artwork that was included in this limited vinyl edition. You can follow links to the recordlabel to buy the actual vinyl record, and to different socialmedia profiles.
+
+### For who 
+- This website is created for the dutch hip-hop group "The Chill Oud Posse" and their record label "Dutch Gems Records"
+
+### targeted at
+- Worldwide hip-hop fans between their thirties and fifties. As some tracks are in dutch the main fanbase will be from Holland. Leiden is the homebase of the group so we expect most fans to be from there.
+
+### what does the group want to achieve with this website
+- Last year the group put out a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. It was planned from the start to release the music for free after some time of selling the record, as this is a non-profit project. This will be the website to download and stream the music digitally. 
+- Show the video of the releaseparty at Nowas Record store, in Leiden.
+
+### What does the record label wish to achieve with this website
+- The record label wishes to raise some attention back to the label as the upcoming record (DG003) is about to be released. 
+- Sell some more records of this release (DG002)
+
+### Basic features
+- Long scrollable page with snapping to the sections
+- Sticky top menu, wich makes it 'feel' like multiple pages
+- Menu will only use icons for an intuitive design
+- Icons will have an arternative for visual impaired people
+- fully responsive design
+- Always visible social media links at the left on wider screens
+- The album cover on the frontpage will allways be visible behind the other partly transparent sections
+- Info section
+- Stream section with an embedded soundcloud playlist
+- Download section for the MP3/Flac version of the record
+- Cover-art section to showcase the album-art
+- Releasepartysection with an embedded youtube video of the releaseparty
+
+### Optional Features
+- Animated sticker on the frontpage
+- Icons in the upper right corner of the sections to instantly center them on the screen
+- Icon on the bottom to scroll all the way back up
+- Smooth scrolling when you use the menu, so you see the whole page go by.
+- Static pictures below the sections for a nice scrolling effect
+- Option to switch to the dutch language.
 
 ### User stories
 
@@ -27,7 +62,7 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - Sticky top menu, wich makes it 'feel' like multiple pages
 
 ### Features Left to Implement
-- fix icons for the hearing-impaired
+- fix icons for the visual-impaired
 - Icons in the upper right corner of the sections to make that section cover the screen
 - On larger screens there are social links (icons) allways visible on the left
 - Embedded soundcloud playlist to stream the music digitally
@@ -39,11 +74,14 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - animate the sticker on the front cover 
 
 ## Technologies Used
-
-- responsive iframe for youtube - (https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php)
-- Jquery/bootstrap - Dropdown Menu
-- Photoshop CS6 - Image editing (https://www.adobe.com/products/cs6.html)
-- Steinberg Cubase 10 - Converting music to Mp3/FLAC (https://new.steinberg.net/cubase/)
+- bootstrap (https://getbootstrap.com)
+    - Responsive grid / Navigation bar
+- css-tricks (https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php)
+    - Responsive iframe for youtube
+- Photoshop CS6 (https://www.adobe.com/products/cs6.html)
+    - Image editing 
+- Steinberg Cubase 10 (https://new.steinberg.net/cubase/) 
+    - Converting music from Wav to Mp3&FLAC
 
 
 ## Testing
