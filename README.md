@@ -39,6 +39,7 @@ De Ware Boembep
 - Smooth scrolling when you use the menu, so you see the whole page go by.
 - Static pictures below the sections for a nice scrolling effect
 - Option to switch to the dutch language.
+- mouse hover tooltips
 
 
 ### User stories

@@ -107,6 +107,10 @@ nav, footer {
     background-color: rgba(207, 190, 160, 0.92);
 }
 
+#back-cover {
+    
+}
+
 /* ----------------------------------------Section template with snapping to top */
 
 .er-content {
@@ -128,7 +132,7 @@ nav, footer {
 /* ----------------------------------------Section Content building blocks */
 
 .er-content-block {
-    margin: 3vh 0px 0px 0px;
+    margin: 2vh 0px 0px 0px;
     width: 100%;
     min-height: 60vh;
 }
@@ -156,7 +160,8 @@ nav, footer {
 .er-button {
     font-size: 3em;
     color: rgba(60, 60, 60);
-    padding: 12px 30px 8px 30px;
+    margin-bottom: 12px;
+    padding: 12px 30px 12px 30px;
     border-color: rgba(60, 60, 60);
     border: 1px;
     border-radius: 10px;
@@ -198,6 +203,7 @@ nav, footer {
     height: 6vh;
     overflow: hidden;
     line-height: 6vh;
+    margin-top: 2vh;
     margin-right: 33%;
     box-shadow: 5px 5px 5px #a59172;
     transform: rotate(-1deg);
@@ -251,6 +257,18 @@ nav, footer {
     box-shadow: 0px 0px 25px rgba(60, 60, 60);
 }
 
+#flac {
+    text-align: right;
+    margin-right: 25px;
+}
+
+#er-content-video-square {
+    margin-left: auto;
+    width: 90%;
+}
+
+/* ----------------------------------------Create responsive 16:9 aspect ratio iframe */
+
 .er-content-video {
     width: 100%;
     height: 100%;
@@ -270,7 +288,8 @@ nav, footer {
 }
 
 .er-content-thirds {
-    height: 40vh;
+    /*    height: 40vh; */
+    text-align: center;
 }
 
 .er-content-image {
@@ -331,12 +350,12 @@ nav, footer {
     text-align: center;
 }
 
-.er-footer-social p{
+.er-footer-social p {
     text-align: center;
 }
 
 .er-footer-credits p {
- text-align: center;
+    text-align: center;
 }
 
 @media(min-width: 576px) {
