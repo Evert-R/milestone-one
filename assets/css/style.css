@@ -21,8 +21,6 @@ body {
     max-width: 1920px;
 }
 
-
-
 .row {
     margin: 0;
 }
@@ -148,8 +146,6 @@ nav, footer {
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
 }
 
-
-
 .er-button {
     font-size: 3em;
     color: rgba(60, 60, 60);
@@ -251,7 +247,9 @@ nav, footer {
     background-color: rgba(60, 60, 60, 0.1);
     box-shadow: 0px 0px 25px rgba(60, 60, 60);
 }
+
 /* ----------------------------------------Frontpage section specifics */
+
 .er-frontpage-download {
     margin-left: auto;
     margin-right: auto;
@@ -263,6 +261,7 @@ nav, footer {
 }
 
 /* ----------------------------------------Info section specifics */
+
 .er-content-image {
     margin-left: 25px;
     overflow: hidden;
@@ -276,12 +275,14 @@ nav, footer {
 }
 
 /* ----------------------------------------Download section specifics */
+
 #flac {
     text-align: right;
     margin-right: 25px;
 }
 
 /* ----------------------------------------Video section specifics */
+
 .er-content-video {
     width: 100%;
     height: 100%;
@@ -306,29 +307,53 @@ nav, footer {
 }
 
 /* ----------------------------------------Art section specifics */
+
 #er-image-slider {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 /* ----------------------------------------Create responsive 16:9 aspect ratio iframe */
-
-
 
 .er-content-thirds {
     /*    height: 40vh; */
     text-align: center;
 }
 
+/* ----------------------------------------Overlay section navigation */
 
+.er-centerscreen a {
+    color: rgba(60, 60, 60, 0.92);
+}
+
+.er-centerscreen {
+    position: absolute;
+    top: 11vh;
+    right: 2vw;
+    color: rgba(60, 60, 60, 0.92);
+}
 
 .er-arrow {
     position: absolute;
-    top: 86vh;
-    height: 4vh;
-    width: 100%;
+    right: 2vw;
+    color: rgba(178, 43, 43, 0.92);
+}
+
+.er-arrow a {
+    color: rgba(178, 43, 43, 0.92);
+}
+
+.er-arrow-up {
+    top: 84vh;
+}
+
+.er-arrow-down {
+    top: 92vh;
+}
+
+.er-arrow-frontpage {
+    top: 84vh;
 }
 
 .er-scroll-image {
