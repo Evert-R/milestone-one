@@ -31,6 +31,7 @@ p {
 }
 
 a, a:hover, a:active {
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     transition-property: all;
     transition-duration: 150ms;
@@ -44,6 +45,8 @@ a:hover {
 a:active {
     color: rgba(255, 255, 255, 0.3);
 }
+
+
 
 h1 {
     font-family: 'Source Code Pro', monospace;
@@ -60,6 +63,7 @@ h2 {
     font-size: 20px;
     margin: 25px;
 }
+
 
 /* ----------------------------------------Navbar/header */
 
@@ -204,6 +208,7 @@ nav, footer {
     width: 100%;
     min-height: 60vh;
 }
+
 
 .er-sticker {
     position: absolute;
@@ -547,20 +552,38 @@ nav, footer {
     background-size: contain;
 }
 
+/* ----------------------------------------Footer */
+
 .er-footer {
-    min-height: 30vh;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 50vh;
 }
 
-.er-footer-links p {
+.er-footer-block {
+    padding: 10px;
     text-align: center;
+    
 }
 
-.er-footer-social p {
-    text-align: center;
+.er-footer-title {
+    font-size: 70%;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
 }
 
-.er-footer-credits p {
-    text-align: center;
+.er-footer-credits {
+    font-size: 90%;
+    font-weight: 100;
+    color: rgba(255, 255, 255);
+}
+
+.er-footer-credits a {
+    color: rgba(255, 255, 255)!important;
+}
+
+.er-footer-credits {
+
 }
 
 @media(min-width: 576px) {
