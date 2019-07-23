@@ -481,7 +481,7 @@ nav, footer {
 }
 
 #er-social-second {
-    top: 40vh;
+    top: 35vh;
 }
 
 #er-social-second a:hover {
@@ -489,7 +489,7 @@ nav, footer {
 }
 
 #er-social-third {
-    top: 60vh
+    top: 50vh
 }
 
 #er-social-third a:hover {
@@ -497,11 +497,22 @@ nav, footer {
 }
 
 #er-social-fourth {
-    top: 80vh;
+    top: 65vh;
 }
 
 #er-social-fourth a:hover {
     color: rgba(255, 0, 0);
+}
+
+#er-social-fifth {
+    top: 81vh;
+
+}
+
+#er-social-fifth img {
+    margin: 0px;
+    left: 3vw;
+    
 }
 
 /* ----------------------------------------Scrolling image section dividers */
