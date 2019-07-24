@@ -72,7 +72,7 @@ h2 {
     padding: 0px 0px;
 }
 
-nav, footer {
+nav {
     min-height: 4em;
     background-color: rgba(60, 60, 60);
     color: white;
@@ -167,13 +167,15 @@ nav, footer {
 
 #art {
     background-color: rgba(207, 190, 160, 0.92);
+
 }
 
 #video {
     background-color: rgba(207, 190, 160, 0.92);
 }
 
-#back-cover {}
+#credits{
+}
 
 /* ----------------------------------------Section template with snapping to top */
 
@@ -425,7 +427,7 @@ nav, footer {
 /* ----------------------------------------Art section specifics */
 
 #er-image-slider {
-    width: 90%;
+    width: 75vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -512,11 +514,30 @@ nav, footer {
     color: rgba(60, 60, 60, 0.7);
 }
 
+.er-social-footer {
+    position: absolute;
+    z-index: 3;
+    left: 3vw;
+    transform: translateX(-50%);
+    overflow-x: hidden;
+    height: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
 .er-social a {
     transition-property: all;
     transition-duration: 150ms;
     transition-timing-function: ease-in-out;
     color: rgba(60, 60, 60, 0.7);
+}
+
+.er-social-footer a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.er-social-footer a:active {
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .er-social a:active {
@@ -599,12 +620,35 @@ nav, footer {
     background-size: contain;
 }
 
+#credits {
+
+}
 /* ----------------------------------------Footer */
 
+.er-footer-right {
+
+    right: 1vw;
+    position: absolute;
+    top: 17vh;
+    overflow: hidden;
+
+}
+
+.er-footer-commons {
+    transform: rotate(90deg);
+    color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .er-footer {
+    width: 87vw;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 6em;
     padding-bottom: 3em;
-    min-height: 50vh;
+    min-height: 100vh;
+    background-color: rgba(60, 60, 60);
 }
 
 .er-footer-block {
