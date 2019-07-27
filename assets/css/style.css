@@ -168,6 +168,7 @@ nav {
 
 #art {
     background-color: rgba(207, 190, 160, 0.92);
+
 }
 
 #video {
@@ -179,34 +180,40 @@ nav {
 /* ----------------------------------------Section template with scroll snapping to top */
 
 .er-content {
+
     min-height: 100vh;
     scroll-snap-align: start;
     width: 100%;
     margin: 0;
+
 }
 
 /* ----------------------------------------Section content */
 
 .er-content-wrapper {
-    width: 90%;
+    padding-top: 3em;
+    min-height: 60vh;
+    margin-top: auto;
+    margin-bottom: auto;
+     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 8vh;
+
 }
 
 /* ----------------------------------------Section Content building blocks */
 
 .er-content-block {
-    margin: 2vh 0px 0px 0px;
+
+    margin: 0;
     width: 100%;
-    min-height: 60vh;
+    
 }
 
 
 .er-content-circle {
     width: 100%;
     height: auto;
-    ;
     margin: auto;
     overflow: hidden;
     border-radius: 50%;
@@ -229,7 +236,7 @@ nav {
 /* ----------------------------------------Section header and footer */
 
 .er-content-header {
-    margin-top: 5vh;
+    margin-bottom: 2em;
     text-align: right;
     width: 66%;
     height: 3em;
@@ -257,7 +264,7 @@ nav {
     height: 3em;
     overflow: hidden;
     line-height: 3em;
-    margin-top: 2vh;
+    margin-top: 3em;
     margin-right: 32%;
     box-shadow: 5px 5px 5px #a59172;
     transform: rotate(-1deg);
@@ -568,7 +575,7 @@ nav {
 /* ----------------------------------------Art section specifics */
 
 #er-image-slider {
-    width: 75vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
