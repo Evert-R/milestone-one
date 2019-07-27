@@ -460,9 +460,9 @@ nav {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    left: 51vw;
+    left: 51.5vw;
     transform: translate(-50%, -50%);
-    top: 57vh;
+    top: 52vh;
     text-align: center;
 }
 
@@ -688,7 +688,11 @@ nav {
 
 /* --------------------------768 - MD */
 
-@media(min-width: 768px) {}
+@media(min-width: 768px) {
+    .er-frontpage-download {
+        top: 56vh;
+    }
+}
 
 /* --------------------------992 - LG */
 
