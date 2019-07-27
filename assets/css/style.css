@@ -338,14 +338,12 @@ nav {
     color: rgba(60, 60, 60, 0.7);
 }
 
-
 .er-social a {
     transition-property: all;
     transition-duration: 150ms;
     transition-timing-function: ease-in-out;
     color: rgba(60, 60, 60, 0.7);
 }
-
 
 .er-social a:active {
     color: rgba(60, 60, 60, 0.1)!important;
@@ -396,11 +394,9 @@ nav {
 
 .er-social-mobile {
     margin-bottom: 2em;
-
 }
 
 .er-social-dutchgems img {
-
     margin-right: auto;
 }
 
@@ -419,7 +415,6 @@ nav {
 .er-social-youtube a:hover {
     color: rgba(255, 0, 0);
 }
-
 
 /* ----------------------------------------Frontpage section specifics */
 
@@ -629,7 +624,7 @@ nav {
 }
 
 .er-footer {
-    width: 87vw;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     padding-top: 6em;
@@ -685,7 +680,6 @@ nav {
         right: 0px;
         margin-right: 25px;
     }
-
     .er-header-text {
         letter-spacing: 5px;
     }
@@ -718,8 +712,6 @@ nav {
         font-size: 2em;
         letter-spacing: 5px;
     }
-
-
 }
 
 /* --------------------------992 - LG */
@@ -749,7 +741,6 @@ nav {
         line-height: 3em;
         height: 3em;
     }
-
     .er-header-text {
         margin-right: 15px;
         font-size: 2.5em;
@@ -760,7 +751,6 @@ nav {
         font-size: 2.5em;
         letter-spacing: 5px;
     }
-
     .er-content-block {
         margin: 0;
         width: 100%;
@@ -773,7 +763,6 @@ nav {
         box-shadow: 5px 5px 5px #a59172;
         transform: translateY(-50%);
     }
-
     .er-social {
         position: fixed;
         z-index: 1;
@@ -783,6 +772,10 @@ nav {
         height: 100%;
         text-align: center;
         color: rgba(60, 60, 60, 0.7);
+    }
+
+    .er-footer {
+        width: 87vw;
     }
 }
 
