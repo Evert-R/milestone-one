@@ -332,26 +332,12 @@ nav {
 .er-social-side {}
 
 .er-social {
-    position: fixed;
-    z-index: 1;
-    left: 3vw;
-    transform: translateX(-50%);
-    overflow-x: hidden;
-    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
     color: rgba(60, 60, 60, 0.7);
 }
 
-.er-social-footer {
-    position: absolute;
-    z-index: 3;
-    left: 3vw;
-    transform: translateX(-50%);
-    overflow-x: hidden;
-    height: 100%;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.8);
-}
 
 .er-social a {
     transition-property: all;
@@ -360,13 +346,6 @@ nav {
     color: rgba(60, 60, 60, 0.7);
 }
 
-.er-social-footer a {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.er-social-footer a:active {
-    color: rgba(255, 255, 255, 0.8);
-}
 
 .er-social a:active {
     color: rgba(60, 60, 60, 0.1)!important;
@@ -412,6 +391,35 @@ nav {
     margin: 0px;
     left: 3vw;
 }
+
+/* ----------------------------------------Social icons horizontal (mobile) */
+
+.er-social-mobile {
+    margin-bottom: 2em;
+
+}
+
+.er-social-dutchgems img {
+
+    margin-right: auto;
+}
+
+.er-social-facebook a:hover {
+    color: rgba(61, 91, 153);
+}
+
+.er-social-insta a:hover {
+    color: rgba(224, 80, 95);
+}
+
+.er-social-soundcloud a:hover {
+    color: rgb(225, 85, 0);
+}
+
+.er-social-youtube a:hover {
+    color: rgba(255, 0, 0);
+}
+
 
 /* ----------------------------------------Frontpage section specifics */
 
@@ -710,6 +718,8 @@ nav {
         font-size: 2em;
         letter-spacing: 5px;
     }
+
+
 }
 
 /* --------------------------992 - LG */
@@ -762,6 +772,17 @@ nav {
         top: 50%;
         box-shadow: 5px 5px 5px #a59172;
         transform: translateY(-50%);
+    }
+
+    .er-social {
+        position: fixed;
+        z-index: 1;
+        left: 3vw;
+        transform: translateX(-50%);
+        overflow-x: hidden;
+        height: 100%;
+        text-align: center;
+        color: rgba(60, 60, 60, 0.7);
     }
 }
 
