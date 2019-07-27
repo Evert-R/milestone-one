@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:100,200,300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
-
 html {
     scroll-behavior: smooth;
 }
@@ -168,24 +167,19 @@ nav {
 
 #art {
     background-color: rgba(207, 190, 160, 0.92);
-
 }
 
 #video {
     background-color: rgba(207, 190, 160, 0.92);
 }
 
-
-
 /* ----------------------------------------Section template with scroll snapping to top */
 
 .er-content {
-
     min-height: 100vh;
     scroll-snap-align: start;
     width: 100%;
     margin: 0;
-
 }
 
 /* ----------------------------------------Section content */
@@ -195,21 +189,17 @@ nav {
     min-height: 60vh;
     margin-top: auto;
     margin-bottom: auto;
-     width: 90%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 /* ----------------------------------------Section Content building blocks */
 
 .er-content-block {
-
     margin: 0;
     width: 100%;
-    
 }
-
 
 .er-content-circle {
     width: 100%;
@@ -222,7 +212,6 @@ nav {
     box-shadow: 5px 5px 5px #a59172;
     transform: translateY(-50%);
 }
-
 
 .er-content-square {
     padding: 15px;
@@ -281,7 +270,6 @@ nav {
     text-shadow: 1px 1px 2px #000000a1;
     color: rgba(207, 190, 160);
 }
-
 
 /* ----------------------------------------Overlay section navigation */
 
@@ -435,8 +423,8 @@ nav {
     position: absolute;
     top: 10vh;
     right: 8vw;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
 }
@@ -587,8 +575,6 @@ nav {
     text-align: center;
 }
 
-
-
 /* ----------------------------------------Scrolling image section dividers */
 
 .er-scroll-image {
@@ -621,7 +607,6 @@ nav {
     background: url("../images/cover-back.jpg") no-repeat fixed center;
     background-size: contain;
 }
-
 
 /* ----------------------------------------Footer */
 
@@ -681,9 +666,14 @@ nav {
 .er-footer-block a:active {
     color: rgba(255, 255, 255, 0.2);
 }
+
 .er-footer-credit {
     color: rgba(255, 255, 255, 0.8);
 }
+
+/* ----------------------------------------Responsive breakpoints */
+
+/* --------------------------576 - SM */
 
 @media(min-width: 576px) {
     .er-nav-icons {
@@ -696,16 +686,39 @@ nav {
     }
 }
 
+/* --------------------------768 - MD */
+
+@media(min-width: 768px) {}
+
+/* --------------------------992 - LG */
+
 @media(min-width: 992px) {
     p {
         margin-right: 50px;
     }
+
     .er-sticker {
-        top: 20vh;
+        top: 12vh;
         right: 6vw;
         width: 150px;
         height: 150px;
     }
+    .er-content-left {
+        width: 100%;
+    }
+}
+
+/* --------------------------1200 - XL */
+
+@media(min-width: 1200px) {
+
+    .er-sticker {
+        top: 15vh;
+        right: 6vw;
+        width: 175px;
+        height: 175px;
+    }
+
     .er-content-left {
         width: 100%;
     }
