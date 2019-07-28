@@ -33,13 +33,14 @@ p {
 a, a:hover, a:active {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
-    transition-property: all;
-    transition-duration: 150ms;
-    transition-timing-function: ease-in-out;
+    transition: all .150s ease-in-out;
+    -moz-transition: all .150s ease-in-out;
+    -webkit-transition: all .150s ease-in-out;
 }
 
 a:hover {
     color: rgba(255, 255, 255);
+    font-size: 110%;
 }
 
 a:active {
@@ -86,7 +87,7 @@ nav {
 .er-brand-link {
     color: rgba(255, 255, 255, 0.8);
     text-shadow: 0px 0px 7px rgba(178, 43, 43, 0.7);
-    font-size: 125%;
+    font-size: 1.2em;
     text-decoration: none;
 }
 
@@ -96,6 +97,7 @@ nav {
 }
 
 .er-brand-link a:hover {
+    font-size: 1.3em!important;
     color: rgba(255, 255, 255)!important;
     text-shadow: 0px 0px 7px rgba(178, 43, 43, 0.1);
 }
@@ -278,9 +280,6 @@ nav {
 }
 
 .er-centerscreen a {
-    transition-property: all;
-    transition-duration: 150ms;
-    transition-timing-function: ease-in-out;
     color: rgba(60, 60, 60, 0.3);
 }
 
@@ -302,14 +301,10 @@ nav {
 }
 
 .er-arrow a {
-    transition-property: all;
-    transition-duration: 150ms;
-    transition-timing-function: ease-in-out;
     color: rgba(178, 43, 43, 0.6);
 }
 
 .er-arrow a:hover {
-    font-size: 110%;
     color: rgba(178, 43, 43, 0.9);
 }
 
@@ -342,9 +337,6 @@ nav {
 }
 
 .er-social a {
-    transition-property: all;
-    transition-duration: 150ms;
-    transition-timing-function: ease-in-out;
     color: rgba(60, 60, 60, 0.8);
 }
 
@@ -412,10 +404,8 @@ nav {
 }
 
 .er-social-mobile a {
-    color: rgba(60,60,60,0.8)!important;
+    color: rgba(60, 60, 60, 0.8)!important;
 }
-
-
 
 .er-social-dutchgems img {
     margin-right: 30px;
@@ -424,7 +414,6 @@ nav {
 .er-social-footer a {
     color: rgba(255, 255, 255, 0.8)!important;
 }
-
 
 .er-social-facebook a:hover {
     color: rgba(61, 91, 153)!important;
@@ -447,23 +436,23 @@ nav {
 }
 
 .er-social-facebook a:active {
-    color: rgba(255, 255, 255,0.3)!important;
+    color: rgba(255, 255, 255, 0.3)!important;
 }
 
 .er-social-insta a:active {
-    color: rgba(255, 255, 255,0.3)!important;
+    color: rgba(255, 255, 255, 0.3)!important;
 }
 
 .er-social-soundcloud a:active {
-    color: rgba(255, 255, 255,0.3)!important;
+    color: rgba(255, 255, 255, 0.3)!important;
 }
 
 .er-social-youtube a:active {
-    color: rgba(255, 255, 255,0.3)!important;
+    color: rgba(255, 255, 255, 0.3)!important;
 }
 
 .er-social-shopping a:active {
-    color: rgba(255, 255, 255,0.3)!important;
+    color: rgba(255, 255, 255, 0.3)!important;
 }
 
 /* ----------------------------------------Frontpage section specifics */
@@ -479,7 +468,7 @@ nav {
 }
 
 .er-button {
-    font-size: 3em;
+    font-size: 2em;
     color: rgba(60, 60, 60);
     margin-bottom: 12px;
     padding: 12px 30px 12px 30px;
@@ -488,17 +477,19 @@ nav {
     border-radius: 10px;
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
     background-color: rgba(255, 255, 255, 0.83);
-    transition-property: background-color;
-    transition-duration: 120ms;
-    transition-timing-function: ease-in-out;
+    transition: backgroundcolor .120s ease-in-out;
+    -moz-transition: backgroundcolor .120s ease-in-out;
+    -webkit-transition: backgroundcolor .120s ease-in-out;
 }
 
 .er-button:hover {
+    font-size: 1.9em;
     color: rgba(255, 255, 255);
     background-color: rgba(60, 60, 60, 0.8);
 }
 
 .er-button:active {
+    font-size: 2.7em;
     outline: 0!important;
     color: rgba(255, 255, 255);
     background-color: rgba(60, 60, 60);
@@ -547,11 +538,12 @@ nav {
 }
 
 .er-file-download a:hover {
-    color: rgba(60, 60, 60)
+    color: rgba(60, 60, 60);
+    font-size: 105%;
 }
 
 .er-file-download a:active {
-    color: rgba(60, 60, 60, 0.2)
+    color: rgba(60, 60, 60, 0.2);
 }
 
 .er-zip-download {
@@ -579,8 +571,16 @@ nav {
     padding-left: 15px;
 }
 
-.er-tip a {
-    color: rgba(255, 255, 255);
+.er-file-tip {
+    font-size: 0.9em;
+}
+.er-file-tip a {
+    color: rgba(178, 43, 43);
+    font-size: 90%;
+}
+
+.er-file-tip a:hover {
+    color: rgba(0, 0, 0)!important;
     font-size: 120%;
 }
 
@@ -618,9 +618,6 @@ nav {
 }
 
 /* ----------------------------------------Back cover specifics */
-
-
-
 
 /* ----------------------------------------Create responsive 16:9 aspect ratio iframe */
 
@@ -679,7 +676,7 @@ nav {
 }
 
 .er-footer {
-    width: 100%;
+    width: 100;
     margin-left: auto;
     margin-right: auto;
     padding: 5em 2em 3em 2em;
@@ -740,8 +737,6 @@ nav {
     .er-footer-text {
         letter-spacing: 5px;
     }
-
-    
 }
 
 /* --------------------------768 - MD */
