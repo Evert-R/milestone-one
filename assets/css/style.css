@@ -387,6 +387,7 @@ nav {
 
 #er-social-fifth img {
     margin: 0px;
+    margin-top: 8px;
     left: 3vw;
 }
 
@@ -395,7 +396,7 @@ nav {
 }
 
 #er-social-shopping a:hover {
-    color: rgba(178, 43, 43, 0.9);
+    color: rgba(249, 212, 108, 0.9);
 }
 
 /* ----------------------------------------Social icons horizontal (mobile) */
@@ -437,6 +438,10 @@ nav {
     color: rgba(255, 0, 0)!important;
 }
 
+.er-social-shopping a:hover {
+    color: rgba(249, 212, 108, 0.9)!important;
+}
+
 .er-social-facebook a:active {
     color: rgba(255, 255, 255,0.3)!important;
 }
@@ -450,6 +455,10 @@ nav {
 }
 
 .er-social-youtube a:active {
+    color: rgba(255, 255, 255,0.3)!important;
+}
+
+.er-social-shopping a:active {
     color: rgba(255, 255, 255,0.3)!important;
 }
 
@@ -727,6 +736,8 @@ nav {
     .er-footer-text {
         letter-spacing: 5px;
     }
+
+    
 }
 
 /* --------------------------768 - MD */
