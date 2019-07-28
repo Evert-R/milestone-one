@@ -460,11 +460,25 @@ nav {
 .er-sticker {
     position: absolute;
     top: 10vh;
-    right: 8vw;
-    width: 125px;
-    height: 125px;
+    right: 12vw;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
+    animation-name: sticker;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes sticker {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: 10vh;
+    }
 }
 
 .er-button {
@@ -504,6 +518,20 @@ nav {
     transform: translate(-50%, -50%);
     top: 52vh;
     text-align: center;
+    animation-name: download;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes download {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: 52vh;
+    }
 }
 
 /* ----------------------------------------About section specifics */
@@ -574,6 +602,7 @@ nav {
 .er-file-tip {
     font-size: 0.9em;
 }
+
 .er-file-tip a {
     color: rgba(178, 43, 43);
     font-size: 90%;
@@ -737,6 +766,20 @@ nav {
     .er-footer-text {
         letter-spacing: 5px;
     }
+    .er-sticker {
+        right: 8vw;
+        top: 10vh;
+        width: 125px;
+        height: 125px;
+    }
+    @keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 10vh;
+        }
+    }
 }
 
 /* --------------------------768 - MD */
@@ -745,6 +788,15 @@ nav {
     .er-frontpage-download {
         top: 56vh;
     }
+    @keyframes download {
+        from {
+            top: 110vh;
+        }
+        to {
+            top: 56vh;
+        }
+    }
+
     .er-content-header {
         line-height: 2em;
         height: 2em;
@@ -779,6 +831,14 @@ nav {
         right: 6vw;
         width: 150px;
         height: 150px;
+    }
+    @keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 12vh;
+        }
     }
     .er-content-header {
         margin-top: 0em;
@@ -840,5 +900,13 @@ nav {
         right: 6vw;
         width: 175px;
         height: 175px;
+    }
+    @keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 15vh;
+        }
     }
 }
