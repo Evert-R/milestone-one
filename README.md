@@ -89,6 +89,7 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 
 ### Known issues
 - Background image not showing on google chrome mobile (android)
+- overlay navigation not working on medium width
 
 ## Deployment
 
@@ -105,5 +106,5 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
     - Pictures in streaming, download and releaseparty sections
 - Chill oud Posse - (http://rotmuziek.nl)
     - Music
-    
+
 ### Acknowledgements

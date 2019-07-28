@@ -189,7 +189,7 @@ nav {
     min-height: 60vh;
     margin-top: auto;
     margin-bottom: auto;
-    width: 100%;
+    width: 99%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -270,6 +270,7 @@ nav {
 /* ----------------------------------------Overlay section navigation */
 
 .er-centerscreen {
+    z-index: 23;
     position: absolute;
     top: 5.5em;
     right: 0vw;
@@ -292,6 +293,7 @@ nav {
 }
 
 .er-arrow {
+    z-index: 23;
     width: 2vw;
     position: absolute;
     right: 2vw;
@@ -332,6 +334,7 @@ nav {
 .er-social-side {}
 
 .er-social {
+    z-index: 23;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
@@ -402,6 +405,7 @@ nav {
 /* ----------------------------------------Social icons horizontal (mobile) */
 
 .er-social-mobile {
+    z-index: 23;
     margin-bottom: 2em;
     padding-right: 2em;
     padding-left: 2em;
@@ -675,7 +679,7 @@ nav {
 }
 
 .er-footer {
-    width: 100vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 5em 2em 3em 2em;
