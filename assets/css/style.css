@@ -350,7 +350,7 @@ nav {
 }
 
 #er-social-first {
-    top: 20vh;
+    top: 13vh;
 }
 
 #er-social-first a:hover {
@@ -358,7 +358,7 @@ nav {
 }
 
 #er-social-second {
-    top: 35vh;
+    top: 26vh;
 }
 
 #er-social-second a:hover {
@@ -366,7 +366,7 @@ nav {
 }
 
 #er-social-third {
-    top: 50vh
+    top: 39vh
 }
 
 #er-social-third a:hover {
@@ -374,7 +374,7 @@ nav {
 }
 
 #er-social-fourth {
-    top: 65vh;
+    top: 52vh;
 }
 
 #er-social-fourth a:hover {
@@ -388,6 +388,14 @@ nav {
 #er-social-fifth img {
     margin: 0px;
     left: 3vw;
+}
+
+#er-social-shopping {
+    top: 65vh;
+}
+
+#er-social-shopping a:hover {
+    color: rgba(178, 43, 43, 0.9);
 }
 
 /* ----------------------------------------Social icons horizontal (mobile) */
