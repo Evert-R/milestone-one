@@ -8,38 +8,26 @@ De Ware Boembep
 - This website is created for the dutch hip-hop group "The Chill Oud Posse" and their record label "Dutch Gems Records"
 
 ### targeted at
-- Worldwide hip-hop fans between their thirties and fifties. As some tracks are in dutch the main fanbase will be from Holland. Leiden is the homebase of the group so we expect most fans to be from there.
+- Worldwide hip-hop fans between their thirties and fifties. As some tracks and much of the written content of the release are in dutch the main fanbase will be from Holland, but the main language will be english, wich is common in this subculture. Leiden is the homebase of the group so we expect most fans to be from there.
 
 ### what does the group want to achieve with this website
-- Last year the group put out a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. It was planned from the start to release the music for free after some time of selling the record, as this is a non-profit project. This will be the website to download and stream the music digitally. 
-- Show the video of the releaseparty at Nowas Record store, in Leiden.
+- Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. It was planned from the start to release the music for free after some time of selling the record, as this is a non-profit project and the record was released in a limited edition. Its purpose was to be a collectors item as well as an historic documentation of the beginning of hip hop in Leiden. This website will hold all the contents of the original release in digital form. As an addition the video of the release party, wich was held at Nowas recordstore in Leiden, will be availabe as a youtube stream from the website. 
 
 ### What does the record label wish to achieve with this website
 - The record label wishes to raise some attention back to the label as the upcoming record (DG003) is about to be released. 
 - Sell some more records of this release (DG002)
 
+### Concept
+- This will be one long scrollable page, with the feel of multiple pages, sections, selected from the menu, wich is allways visible at the top of the screen. The menu only holds icons only wich will allways be the same, both on desktop as on mobile. The menu will visually scroll the page, so you'll quickly be able to see what more is there and also get a glimpse of the album-art wich is used between the sections. Each section will have arrows to scroll up and down as well as an icon to centralize the section on the screen. As an additon the scrolling will snap to the top of the section when you scroll by mouse or when swiping.
+- The website is meant to be as intuitive and practical as possible. The information is mostly in the content provided. 
+- The first and last page will hold the front and back cover of the record to imitate the real album. Scrolling down further or clicking an other arrow will take you down to the credits in the footer.
+-     
+
 ### Basic features
-- Long scrollable page with snapping to the sections
-- Sticky top menu, wich makes it 'feel' like multiple pages
-- Menu will only use icons for an intuitive design
-- Icons will have an arternative for visual impaired people
-- fully responsive design
-- Always visible social media links at the left on wider screens
-- The album cover on the frontpage will allways be visible behind the other partly transparent sections
-- Info section
-- Stream section with an embedded soundcloud playlist
-- Download section for the MP3/Flac version of the record
-- Cover-art section to showcase the album-art
-- Releasepartysection with an embedded youtube video of the releaseparty
+
 
 ### Optional Features
-- Animated sticker on the frontpage
-- Icons in the upper right corner of the sections to instantly center them on the screen
-- Icon on the bottom to scroll all the way back up
-- Smooth scrolling when you use the menu, so you see the whole page go by.
-- Static pictures below the sections for a nice scrolling effect
-- Option to switch to the dutch language.
-- mouse hover tooltips
+
 
 
 ### User stories
@@ -62,16 +50,26 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 ### Existing Features
 - Long scrollable page with snapping to the sections
 - Sticky top menu, wich makes it 'feel' like multiple pages
+- Menu will only use icons for an intuitive design
+- Icons will have an alternative for visual impaired people
+- Icons in the upper right corner of the sections to instantly center them on the screen
+- Icon on the bottom to scroll all the way back up
+- mouse hover tooltips for icons
+- Smooth scrolling when you use the menu, so you see the whole page go by
+- Static pictures below the sections for a nice scrolling effect
+- fully responsive design
+- Always visible social media links at the left on wider screens
+- The album cover on the frontpage will allways be visible behind the other transparent sections
+- Info section with a short introduction
+- Stream section with an embedded soundcloud playlist
+- Download section for the MP3/Flac version of the record
+- Cover-art section to showcase the album-art
+- Releasepartysection with an embedded youtube video of the releaseparty
 
 ### Features Left to Implement
-- fix icons for the visual-impaired
-- Icons in the upper right corner of the sections to make that section cover the screen
-- On larger screens there are social links (icons) allways visible on the left
-- Embedded soundcloud playlist to stream the music digitally
-- Download section for the individual tracks as MP3 or FLAC
-- Image carroussel to showcase the cover art-work
-- Embedded Youtube player with the releaseparty video
-- switch long arrow for short arrows left and right
+- Animated sticker on the frontpage
+- Option to switch to the dutch language.
+- full screen art carousel in new tab
 
 ### Optional features
 - animate the sticker on the front cover 
@@ -89,6 +87,9 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 
 ## Testing
 
+### Known issues
+- Background image not showing on google chrome mobile (android)
+
 ## Deployment
 
 ## Credits
@@ -96,6 +97,13 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 ### Content
 
 ### Media
-- Background-image/Front-cover design by Pop-Eye - https://www.colourcastle.nl/
-
+-  Pop-Eye - (https://www.colourcastle.nl)
+    - Background-image/ Front album cover
+- Remko koopman - 
+    - Album cover/inlay design
+- Marieke Mamarazzi - 
+    - Pictures in streaming, download and releaseparty sections
+- Chill oud Posse - (http://rotmuziek.nl)
+    - Music
+    
 ### Acknowledgements
