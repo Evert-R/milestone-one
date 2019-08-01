@@ -33,9 +33,9 @@ p {
 a, a:hover, a:active {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
-    transition: all .150s ease-in-out;
-    -moz-transition: all .150s ease-in-out;
-    -webkit-transition: all .150s ease-in-out;
+    transition: all .200s ease-in-out;
+    -moz-transition: all .200s ease-in-out;
+    -webkit-transition: all .200s ease-in-out;
 }
 
 a:hover {
