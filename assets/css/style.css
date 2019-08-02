@@ -4,14 +4,18 @@
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
 html {
     scroll-behavior: smooth;
+
+
 }
 
 body {
+    max-width: 100vw;
     scroll-snap-type: y proximity;
     scroll-behavior: smooth;
     background: url("../images/front-transpa.png") no-repeat fixed center;
     background-size: contain;
     font-family: 'Source Code Pro', monospace;
+    font-size: 1.2em;
     color: rgba(60, 60, 60);
 }
 
@@ -26,6 +30,7 @@ body {
 }
 
 p {
+    font-size: 1.1em;
     text-align: justify;
     font-weight: 600;
 }
@@ -50,7 +55,7 @@ a:active {
 h1 {
     font-family: 'Source Code Pro', monospace;
     text-align: left;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2em;
     margin-bottom: 25px;
     margin-left: 25px;
@@ -84,7 +89,6 @@ nav {
     margin-left: 25px;
     color: rgba(255, 255, 255, 0.2);
 }
-
 
 .er-nav-icons {
     margin: auto;
@@ -132,6 +136,7 @@ nav {
 
 #frontpage {
     scroll-snap-align: none;
+    min-height: 100vh;
 }
 
 #info {
@@ -148,7 +153,6 @@ nav {
 
 #art {
     background-color: rgba(207, 190, 160, 0.92);
-
 }
 
 #video {
@@ -158,10 +162,10 @@ nav {
 /* ----------------------------------------Section template with scroll snapping to top */
 
 .er-content {
-    min-height: 100vh;
     scroll-snap-align: start;
     width: 100%;
-    margin: 0;
+     margin: 0;
+
 }
 
 /* ----------------------------------------Section content */
@@ -273,10 +277,10 @@ nav {
 
 .er-arrow {
     z-index: 23;
-    width: 2vw;
+
     position: absolute;
-    right: 2vw;
-    text-align: center;
+    right: 0vw;
+    text-align: left;
     color: rgba(178, 43, 43, 0.7);
 }
 
@@ -476,8 +480,6 @@ nav {
     -webkit-transition: backgroundcolor .120s ease-in-out;
 }
 
-
-
 .er-button:active {
     font-size: 2.7em;
     outline: 0!important;
@@ -592,6 +594,7 @@ nav {
 /* ----------------------------------------Video section specifics */
 
 /* --------Create responsive 16:9 aspect ratio iframe */
+
 .er-content-video {
     width: 100%;
     height: 100%;
@@ -625,8 +628,6 @@ nav {
 }
 
 /* ----------------------------------------Back cover specifics */
-
-
 
 .er-content-thirds {
     /*    height: 40vh; */
@@ -662,6 +663,8 @@ nav {
 }
 
 #back-cover {
+    
+    min-height:100vh;
     background: url("../images/cover-back.jpg") no-repeat fixed center;
     background-size: contain;
 }
@@ -672,7 +675,7 @@ nav {
     right: 1vw;
     position: absolute;
     top: 19vh;
-    overflow: hidden;
+    
 }
 
 .er-footer-commons {
@@ -733,11 +736,7 @@ nav {
 /* --------------------------576 - SM */
 
 @media(min-width: 576px) {
-    .er-nav-icons {
-        position: absolute;
-        right: 0px;
-        margin-right: 25px;
-    }
+
     .er-header-text {
         letter-spacing: 5px;
     }
@@ -763,6 +762,14 @@ nav {
 /* --------------------------768 - MD */
 
 @media(min-width: 768px) {
+    .er-nav-icons {
+        position: absolute;
+        right: 0px;
+        margin-right: 25px;
+    }
+    .er-content {
+        min-height: 100vh;
+    }
     .er-frontpage-download {
         top: 56vh;
     }
@@ -886,4 +893,7 @@ nav {
             top: 15vh;
         }
     }
+    #er-image-slider {
+
+        width: 90%;
 }
