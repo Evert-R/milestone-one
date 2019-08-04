@@ -43,7 +43,7 @@ a {
 
 a:hover {
     color: rgba(255, 255, 255);
-    font-size: 110%;
+
     text-decoration: none;
 }
 
@@ -90,11 +90,14 @@ nav {
 }
 
 .er-nav-icons {
+    margin: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
 .er-menu-icon {
+    padding-top: auto;
+    padding-bottom: auto;
     font-size: 1.6em;
     text-align: center;
     letter-spacing: 0.50em;
@@ -111,6 +114,7 @@ nav {
 
 .er-menu-icon a:hover {
     color: rgba(255, 255, 255)!important;
+    font-size: 110%;
     text-shadow: 0px 0px 7px rgba(178, 43, 43, 0.1);
 }
 
@@ -267,6 +271,7 @@ nav {
 }
 
 .er-centerscreen a:hover {
+    font-size: 110%;
     color: rgba(60, 60, 60);
 }
 
@@ -287,6 +292,7 @@ nav {
 }
 
 .er-arrow a:hover {
+    font-size: 110%;
     color: rgba(178, 43, 43, 0.9);
 }
 
@@ -331,6 +337,7 @@ nav {
 }
 
 #er-social-first a:hover {
+    font-size: 110%;
     color: rgba(61, 91, 153);
 }
 
@@ -339,6 +346,7 @@ nav {
 }
 
 #er-social-second a:hover {
+    font-size: 110%;
     color: rgba(224, 80, 95);
 }
 
@@ -347,6 +355,7 @@ nav {
 }
 
 #er-social-third a:hover {
+    font-size: 110%;
     color: rgb(225, 85, 0);
 }
 
@@ -355,6 +364,7 @@ nav {
 }
 
 #er-social-fourth a:hover {
+    font-size: 110%;
     color: rgba(255, 0, 0);
 }
 
@@ -373,6 +383,7 @@ nav {
 }
 
 #er-social-shopping a:hover {
+    font-size: 110%;
     color: rgba(249, 212, 108, 0.9);
 }
 
@@ -400,26 +411,32 @@ nav {
 }
 
 .er-social-facebook a:hover {
+    font-size: 110%;
     color: rgba(61, 91, 153)!important;
 }
 
 .er-social-insta a:hover {
+    font-size: 110%;
     color: rgba(224, 80, 95)!important;
 }
 
 .er-social-soundcloud a:hover {
+    font-size: 110%;
     color: rgb(225, 85, 0)!important;
 }
 
 .er-social-youtube a:hover {
+    font-size: 110%;
     color: rgba(255, 0, 0)!important;
 }
 
 .er-social-shopping a:hover {
+    font-size: 110%;
     color: rgba(249, 212, 108, 0.9)!important;
 }
 
 .er-social-facebook a:active {
+    
     color: rgba(255, 255, 255, 0.3)!important;
 }
 
@@ -475,9 +492,13 @@ nav {
     border-radius: 10px;
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
     background-color: rgba(255, 255, 255, 0.83);
-    transition: backgroundcolor .120s ease-in-out;
-    -moz-transition: backgroundcolor .120s ease-in-out;
-    -webkit-transition: backgroundcolor .120s ease-in-out;
+    transition: all .150s ease-in-out;
+    -moz-transition: all .150s ease-in-out;
+    -webkit-transition: all .150s ease-in-out;
+}
+
+.er-button:hover  {
+    font-size: 2.2em;
 }
 
 .er-button:active {
@@ -536,6 +557,7 @@ nav {
 .er-file-download {
     text-align: left;
     margin-bottom: 0.5em;
+    font-weight: 600;
     color: rgba(60, 60, 60);
 }
 
@@ -545,7 +567,6 @@ nav {
 
 .er-file-download a:hover {
     color: rgba(60, 60, 60);
-    font-size: 105%;
 }
 
 .er-file-download a:active {
