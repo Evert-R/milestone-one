@@ -12,7 +12,7 @@ body {
     max-width: 100vw;
     scroll-snap-type: y proximity;
     scroll-behavior: smooth;
-    background: url("../images/front-transpa.jpg") no-repeat fixed center;
+    background: url("../images/front-transpa.png") no-repeat center center fixed;
     background-size: contain;
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2em;
