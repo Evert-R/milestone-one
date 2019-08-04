@@ -11,6 +11,7 @@ body {
     scroll-snap-type: y proximity;
     scroll-behavior: smooth;
     background: url("../images/front-transpa.png") no-repeat center center fixed;
+    -webkit-background: url("../images/front-transpa.png") no-repeat center center static;
     background-size: contain;
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2em;
