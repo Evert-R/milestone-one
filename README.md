@@ -97,6 +97,7 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 ### Github Pages
 - This project was deployed via github pages from the '''master branch'''
     - ```Settings -> GitHub Pages```
+    - [https://evert-r.github.io/milestone-one](https://evert-r.github.io/milestone-one)
 
 ### Local
 - To run this website locally use the following command in your terminal
