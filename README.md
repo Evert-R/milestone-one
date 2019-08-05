@@ -5,13 +5,13 @@ De Ware Boembep
 ## UX
 
 ### For who 
-- This website is created for the dutch hip-hop group "The Chill Oud Posse" and their record label "Dutch Gems Records"
+- This website was created for the dutch hip-hop group "The Chill Oud Posse" and their record label "Dutch Gems Records"
 
 ### targeted at
-- Worldwide hip-hop fans between their thirties and fifties. As some tracks and much of the written content of the release are in dutch the main fanbase will be from Holland. The main language will be english, wich is common in this subculture. Leiden is the homebase of the group so we expect most fans to be from there.
+- Worldwide hip-hop fans between their thirties and fifties. As some tracks and much of the written content of the release is in dutch the main fanbase will be from Holland. The main language however will be english, wich is common in this subculture. Leiden is the home city of the group so we expect most fans to be from there.
 
 ### what does the group want to achieve with this website
-- Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. It was planned then to release the music for free after some time of selling the record, as this is a non-profit project and the record was released in a limited edition. Its purpose was to be a collectors item as well as an historic documentation of the beginning of hip hop in Leiden. This website will hold all the contents of the original release in digital form. The music will be available as a soundlcoud stream as well as individual downloads. All album art will be viewable in a carousel. As an addition the video of the release party, wich was held at Nowas recordstore in Leiden, will be availabe as a youtube stream from the website. 
+- Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. It was planned then to release the music for free after some time of selling the record, as this is a non-profit project and the record was released in a limited edition. Its purpose was to be a collectors item as well as an historic documentation of the beginning of Hip Hop in Leiden. This website will hold all the contents of the original release in digital form. The music will be available as a soundlcoud stream, as well as in individual downloads. All album art will be viewable in a carousel. As an addition the video of the release party, wich was held at Nowas recordstore in Leiden, will be availabe as a youtube stream from the website. 
 
 ### What does the record label wish to achieve with this website
 - The record label wishes to raise some attention back to the label as the upcoming record (DG003) is about to be released as well a to sell some more records of this release (DG002)
@@ -54,7 +54,6 @@ De Ware Boembep
 
 
 ### User stories
-
 - As a user who already bought the record I want to be able to stream or download the music to be able to listen to it everywhere I want. I'll also want to see the video of the releaseparty and be notified of any further projects.
 - As a user who missed the record release I would want the same thing as above plus the information where to buy the record.
 - As a user with no prior knowledge I want al of the above plus lonks to all the information about the project.
@@ -64,23 +63,23 @@ De Ware Boembep
 The mock-ups for this project are in the UXD folder wich you will find in the root of this project.
 
 ## Technologies Used
-- VSCode (https://code.visualstudio.com)
- - Code Editor
-- Xampp (https://www.apachefriends.org)
- - Local deploymemt
-- Git bash (https://gitforwindows.org)
+- [VSCode](https://code.visualstudio.com)
+    - Code Editor
+- [Xampp](https://www.apachefriends.org)
+    - Local deploymemt
+- [Git bash](https://gitforwindows.org)
     - Version control from windows
-- Font-Awesome (https://fontawesome.com)
+- [Font-Awesome](https://fontawesome.com)
     - Icons
-- Bootstrap (https://getbootstrap.com)
+- [Bootstrap](https://getbootstrap.com)
     - Responsive grid / Navigation bar / Image carousel
-- css-tricks (https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php)
+- [css-tricks](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php)
     - Responsive iframe for youtube
-- Online-convert (https://image.online-convert.com/convert-to-ico)
+- [Online-convert](https://image.online-convert.com/convert-to-ico)
     - Convert jpg image to ico for favicon
-- Photoshop CS6 (https://www.adobe.com/products/cs6.html)
+- [Photoshop CS6](https://www.adobe.com/products/cs6.html)
     - Image editing 
-- Steinberg Cubase 10 (https://new.steinberg.net/cubase/) 
+- [Steinberg Cubase 10](https://new.steinberg.net/cubase/) 
     - Converting music from Wav to Mp3 and FLAC
 
 
@@ -91,21 +90,38 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - overlay navigation not working on medium width
 
 ## Deployment
+- The audio files are hosted at [boembep.rotmuziek.nl](https://boembep.rotmuziek.nl)
+    - This is my own domain, wich will hold the website once it is completed and aproved.
+
+### Github Pages
+- This project was deployed via github pages from the '''master branch'''
+    - '''Settings -> GitHub Pages'''
+
+### Local
+- To run this website locally use the following command in your terminal
+    - '''clone https://github.com/Evert-R/milestone-one.git'''
+- To cut ties with this repository
+    - '''git remote rm origin'''
+
+### Live
+- To run this website live, copy all files and folders to the root directory of your webserver.
 
 ## Credits
 
 ### Content
-
+- [Evert Rot](https://evertrot.nl)
+    - webdesign/coding
+    - About-section text.
 ### Media
--  Pop-Eye - (https://www.colourcastle.nl)
+- [Pop-Eye](https://www.colourcastle.nl)
     - Background-image/ Front album cover
-- Remko koopman - 
+- [Remko Koopman](https://remkokoopman.nl) 
     - Album cover/inlay design
-- Marieke Mamarazzi - 
+- [Marieke Mamarazzi](https://www.mmmriek.com) 
     - Pictures in streaming, download and releaseparty sections
-- Chill Oud Posse - (http://rotmuziek.nl)
+- [Chill Oud Posse](https://rotmuziek.nl)
     - Music
-- Evert Rot (https://evertrot.nl)
+- [Evert Rot](https://evertrot.nl)
     - Releaseparty video
 
 ### Acknowledgements

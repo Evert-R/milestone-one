@@ -8,10 +8,9 @@ html {
 
 body {
     max-width: 100vw;
-    scroll-snap-type: y proximity;
+    scroll-snap-type: none;
     scroll-behavior: smooth;
     background: url("../images/front-transpa.png") no-repeat center center fixed;
-    -webkit-background: url("../images/front-transpa.png") no-repeat center center static;
     background-size: contain;
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2em;
@@ -29,13 +28,11 @@ body {
 }
 
 p {
-    font-size: 1.1em;
     text-align: justify;
     font-weight: 600;
 }
 
 a {
-    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     transition: all .200s ease-in-out;
     -moz-transition: all .200s ease-in-out;
@@ -44,7 +41,6 @@ a {
 
 a:hover {
     color: rgba(255, 255, 255);
-
     text-decoration: none;
 }
 
@@ -84,10 +80,18 @@ nav {
     color: white;
 }
 
-.er-brand {
+.er-brand a {
     font-size: 1.2em;
     margin-left: 25px;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.er-brand a:hover {
+    color: rgba(255, 255, 255, 0.99);
+}
+
+.er-brand a:active {
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .er-nav-icons {
@@ -148,7 +152,7 @@ nav {
     background-color: rgba(207, 190, 160, 0.92);
 }
 
-#music {
+#stream {
     background-color: rgba(207, 190, 160, 0.92);
 }
 
@@ -255,6 +259,34 @@ nav {
     letter-spacing: 0px;
     text-shadow: 1px 1px 2px #000000a1;
     color: rgba(207, 190, 160);
+}
+
+.er-shoutout {
+    border-radius: 3px;
+    padding: 0.3em;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+    z-index: 23;
+    position: absolute;
+    top: 92vh;
+    left: 76vw;
+    transform: translateX(-50%);
+    background-color: rgba(173, 33, 33, 0.95);
+    color: rgba(60, 60, 60, 0.8);
+    box-shadow: 0px 2px 8px rgba(60, 60, 60);
+}
+
+.er-shoutout a {
+    color: rgba(255, 255, 255, 0.61);
+}
+
+.er-shoutout a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.er-shoutout a:active {
+    color: rgba(255, 255, 255, 0.3);
 }
 
 /* ----------------------------------------Overlay section navigation */
@@ -391,6 +423,7 @@ nav {
 /* ----------------------------------------Social icons horizontal (mobile) */
 
 .er-social-mobile {
+    overflow: hidden;
     padding-right: 1em;
     padding-bottom: 1em;
     max-width: 100%;
@@ -437,7 +470,6 @@ nav {
 }
 
 .er-social-facebook a:active {
-    
     color: rgba(255, 255, 255, 0.3)!important;
 }
 
@@ -479,7 +511,7 @@ nav {
         top: 110vh;
     }
     to {
-        top: 10vh;
+        top: 15vh;
     }
 }
 
@@ -498,7 +530,7 @@ nav {
     -webkit-transition: all .150s ease-in-out;
 }
 
-.er-button:hover  {
+.er-button:hover {
     font-size: 2.2em;
 }
 
@@ -556,10 +588,13 @@ nav {
 }
 
 .er-file-download {
+
+    font-size: 80%;
     text-align: left;
     margin-bottom: 0.5em;
-    font-weight: 600;
+    font-weight: 700;
     color: rgba(60, 60, 60);
+    background-color: rgba(60, 60, 60, 0.15);
 }
 
 .er-file-download a {
@@ -567,7 +602,7 @@ nav {
 }
 
 .er-file-download a:hover {
-    color: rgba(60, 60, 60);
+    color: rgba(173, 33, 33, 0.95);
 }
 
 .er-file-download a:active {
@@ -601,10 +636,11 @@ nav {
 
 .er-file-tip {
     font-size: 0.9em;
+    
 }
 
 .er-file-tip a {
-    color: rgba(178, 43, 43);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 90%;
 }
 
@@ -714,6 +750,18 @@ nav {
     background-color: rgba(60, 60, 60);
 }
 
+.er-footer a {
+    color: rgba(255, 255, 255, 0.8)!important;
+}
+
+.er-footer a:hover {
+    color: rgba(255, 255, 255)!important;
+}
+
+.er-footer a:active {
+    color: rgba(255, 255, 255, 0.3)!important;
+}
+
 .er-footer-block {
     padding: 10px;
     text-align: center;
@@ -756,6 +804,9 @@ nav {
 /* --------------------------576 - SM */
 
 @media(min-width: 576px) {
+    body {
+        scroll-snap-type: y proximity;
+    }
     .er-header-text {
         letter-spacing: 5px;
     }
@@ -776,7 +827,6 @@ nav {
             top: 10vh;
         }
     }
-
 }
 
 /* --------------------------768 - MD */
