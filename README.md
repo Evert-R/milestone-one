@@ -96,13 +96,13 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 
 ### Github Pages
 - This project was deployed via github pages from the '''master branch'''
-    - '''Settings -> GitHub Pages'''
+    - ```Settings -> GitHub Pages```
 
 ### Local
 - To run this website locally use the following command in your terminal
-    - '''clone https://github.com/Evert-R/milestone-one.git'''
+    - ```clone https://github.com/Evert-R/milestone-one.git```
 - To cut ties with this repository
-    - '''git remote rm origin'''
+    - ```git remote rm origin```
 
 ### Live
 - To run this website live, copy all files and folders to the root directory of your webserver.
