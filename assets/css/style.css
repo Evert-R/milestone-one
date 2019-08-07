@@ -494,10 +494,10 @@ nav {
 
 .er-sticker {
     position: absolute;
-    top: 15vh;
-    right: 12vw;
-    width: 100px;
-    height: 100px;
+    top: 14vh;
+    right: 10vw;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
     animation-name: sticker;
@@ -512,12 +512,12 @@ nav {
         top: 110vh;
     }
     to {
-        top: 15vh;
+        top: 14vh;
     }
 }
 
 .er-button {
-    font-size: 2em;
+    font-size: 1em;
     color: rgba(60, 60, 60);
     margin-bottom: 12px;
     padding: 12px 30px 12px 30px;
@@ -532,11 +532,11 @@ nav {
 }
 
 .er-button:hover {
-    font-size: 2.2em;
+    font-size: 1.2em;
 }
 
 .er-button:active {
-    font-size: 2.7em;
+    font-size: 1.5em;
     outline: 0!important;
     color: rgba(255, 255, 255);
     background-color: rgba(60, 60, 60);
@@ -589,7 +589,6 @@ nav {
 }
 
 .er-file-download {
-
     font-size: 80%;
     text-align: left;
     margin-bottom: 0.5em;
@@ -637,7 +636,6 @@ nav {
 
 .er-file-tip {
     font-size: 0.9em;
-    
 }
 
 .er-file-tip a {
@@ -944,6 +942,17 @@ nav {
     }
     .er-footer {
         width: 87vw;
+    }
+    .er-button {
+        font-size: 1.5em;
+        
+    }
+    .er-button:hover {
+        font-size: 1.7em;
+    }
+    .er-button:active {
+        font-size: 1.9em;
+        
     }
 }
 
