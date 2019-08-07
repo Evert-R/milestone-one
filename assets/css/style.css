@@ -264,14 +264,15 @@ nav {
 .er-shoutout {
     border-radius: 3px;
     padding: 0.3em;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 400;
     text-align: center;
     z-index: 23;
     position: absolute;
-    top: 92vh;
-    left: 76vw;
-    transform: translateX(-50%);
+    top: 82vh;
+    left: 78vw;
+    transform: translateX(50%);
+    transform: rotate(-44deg);
     background-color: rgba(173, 33, 33, 0.95);
     color: rgba(60, 60, 60, 0.8);
     box-shadow: 0px 2px 8px rgba(60, 60, 60);
