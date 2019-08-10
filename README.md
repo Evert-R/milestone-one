@@ -1,6 +1,7 @@
 # Project's name
 ## De Ware Boembep
- 
+[https://evert-r.github.io/milestone-one](https://evert-r.github.io/milestone-one)
+
 ## UX
 
 ### For who 
@@ -23,6 +24,8 @@
 
 ### Mocku-ups
 The mock-ups for this project are in the UXD folder wich you will find in the root of this project.
+- [Wireframe1](UXD/wareboembep-mockup-1.jpg)
+- [Wireframe2](UXD/wareboembep-mockup-2.jpg)
 
 ### Concept
 - This will be one long scrollable page, with the feel of multiple pages. 
