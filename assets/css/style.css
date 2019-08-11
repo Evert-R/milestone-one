@@ -261,35 +261,6 @@ nav {
     color: rgba(207, 190, 160);
 }
 
-.er-shoutout {
-    border-radius: 3px;
-    padding: 0.3em;
-    font-size: 1em;
-    font-weight: 400;
-    text-align: center;
-    z-index: 23;
-    position: absolute;
-    top: 82vh;
-    left: 78vw;
-    transform: translateX(50%);
-    transform: rotate(-44deg);
-    background-color: rgba(173, 33, 33, 0.95);
-    color: rgba(60, 60, 60, 0.8);
-    box-shadow: 0px 2px 8px rgba(60, 60, 60);
-}
-
-.er-shoutout a {
-    color: rgba(255, 255, 255, 0.61);
-}
-
-.er-shoutout a:hover {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.er-shoutout a:active {
-    color: rgba(255, 255, 255, 0.3);
-}
-
 /* ----------------------------------------Overlay section navigation */
 
 .er-centerscreen {
@@ -347,8 +318,6 @@ nav {
 }
 
 /* ----------------------------------------Social icons left side */
-
-.er-social-side {}
 
 .er-social {
     z-index: 23;
@@ -650,14 +619,13 @@ nav {
 
 /* ----------------------------------------Video section specifics */
 
-/* --------Create responsive 16:9 aspect ratio iframe */
+/* --------Create responsive 16:9 aspect ratio iframe (css-tricks.com)*/
 
 .er-content-video {
     width: 100%;
     height: 100%;
     position: relative;
     padding-bottom: 56.25%;
-    /* 16:9 */
     padding-top: 25px;
     height: 0;
 }
@@ -687,7 +655,6 @@ nav {
 /* ----------------------------------------Back cover specifics */
 
 .er-content-thirds {
-    /*    height: 40vh; */
     text-align: center;
 }
 
@@ -945,14 +912,12 @@ nav {
     }
     .er-button {
         font-size: 1.5em;
-        
     }
     .er-button:hover {
         font-size: 1.7em;
     }
     .er-button:active {
         font-size: 1.9em;
-        
     }
 }
 
@@ -976,3 +941,4 @@ nav {
     #er-image-slider {
         width: 90%;
     }
+}

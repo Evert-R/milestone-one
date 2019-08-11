@@ -74,6 +74,8 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
     - Icons
 - [Bootstrap](https://getbootstrap.com)
     - Responsive grid / Navigation bar / Image carousel
+- [Google Fonts](https://fonts.google.com)
+    - Fonts (Source code pro/Allerta Stencil)
 - [css-tricks](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php)
     - Responsive iframe for youtube
 - [Online-convert](https://image.online-convert.com/convert-to-ico)
