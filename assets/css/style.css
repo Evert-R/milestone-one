@@ -10,7 +10,11 @@ body {
     max-width: 100vw;
     scroll-snap-type: none;
     scroll-behavior: smooth;
-    background: url("../images/front-transpa.png") no-repeat center center fixed;
+    background-image: url("../images/front-transpa.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    background-origin: content-box;
     background-size: contain;
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2em;
@@ -144,8 +148,16 @@ nav {
 /* ----------------------------------------Section-colors */
 
 #frontpage {
+    position: relative;
+    top: -4em;
     scroll-snap-align: none;
     min-height: 100vh;
+    background-image: url("../images/front-transpa.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-size: contain;
 }
 
 #about {
