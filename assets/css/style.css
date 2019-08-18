@@ -1,4 +1,4 @@
-/* ----------------------------------------Milestone-1 */
+/* ----------------------------------------Code Institute Milestone-1 - Evert Rot */
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:100,200,300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
@@ -39,8 +39,10 @@ p {
 a {
     text-decoration: none;
     transition: all .200s ease-in-out;
-    -moz-transition: all .200s ease-in-out;
     -webkit-transition: all .200s ease-in-out;
+    -moz-transition: all .200s ease-in-out;
+    -ms-transition: all .200s ease-in-out;
+    -o-transition: all .200s ease-in-out;
 }
 
 a:hover {
@@ -109,8 +111,6 @@ nav {
 }
 
 .er-menu-icon {
-    padding-top: auto;
-    padding-bottom: auto;
     font-size: 1.6em;
     text-align: center;
     letter-spacing: 0.50em;
@@ -139,6 +139,10 @@ nav {
 .er-nav-boembep {
     position: absolute;
     left: 50vw;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     transform: translateX(-50%);
     letter-spacing: 8px;
     font-weight: 300;
@@ -227,6 +231,10 @@ nav {
     padding: 15px;
     position: relative;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     transform: translateY(-50%);
     background-color: rgba(60, 60, 60, 0.1);
     box-shadow: 0px 0px 25px rgba(60, 60, 60);
@@ -242,6 +250,10 @@ nav {
     height: 2em;
     overflow: hidden;
     line-height: 2em;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
     box-shadow: 1px 1px 1px #ffffffa1;
     background-color: rgba(255, 255, 255, 0.61);
@@ -266,6 +278,10 @@ h2 {
     margin-top: 0em;
     margin-bottom: 2em;
     box-shadow: 5px 5px 5px #a59172;
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
     transform: rotate(-1deg);
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -489,11 +505,47 @@ h2 {
     height: 75px;
     border-radius: 50%;
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
-    animation-name: sticker;
-    animation-duration: 2s;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-    animation-direction: normal;
+    -webkit-animation: sticker 2s ease 1 normal;
+    -moz-animation: sticker 2s ease 1 normal;
+    -ms-animation: sticker 2s ease 1 normal;
+    -o-animation: sticker 2s ease 1 normal;
+    animation: sticker 2s ease 1 normal;
+}
+
+@-webkit-keyframes sticker {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: 14vh;
+    }
+}
+
+@-moz-keyframes sticker {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: 14vh;
+    }
+}
+
+@-ms-keyframes sticker {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: 14vh;
+    }
+}
+
+@-o-keyframes sticker {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: 14vh;
+    }
 }
 
 @keyframes sticker {
@@ -516,8 +568,10 @@ h2 {
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
     background-color: rgba(255, 255, 255, 0.83);
     transition: all .150s ease-in-out;
-    -moz-transition: all .150s ease-in-out;
     -webkit-transition: all .150s ease-in-out;
+    -moz-transition: all .150s ease-in-out;
+    -ms-transition: all .150s ease-in-out;
+    -o-transition: all .150s ease-in-out;
 }
 
 .er-button:hover {
@@ -537,14 +591,54 @@ h2 {
     margin-right: auto;
     position: absolute;
     left: 51.5vw;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     top: 52vh;
     text-align: center;
-    animation-name: download;
-    animation-duration: 2s;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-    animation-direction: normal;
+    -webkit-animation: download 2s ease 1 normal;
+    -moz-animation: download 2s ease 1 normal;
+    -ms-animation: download 2s ease 1 normal;
+    -o-animation: download 2s ease 1 normal;
+    animation: download 2s ease 1 normal;
+}
+
+@-webkit-keyframes download {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: 52vh;
+    }
+}
+
+@-moz-keyframes download {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: 52vh;
+    }
+}
+
+@-ms-keyframes download {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: 52vh;
+    }
+}
+
+@-o-keyframes download {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: 52vh;
+    }
 }
 
 @keyframes download {
@@ -567,6 +661,10 @@ h2 {
     border-radius: 3px;
     box-shadow: 5px 5px 5px #a59172;
     float: right;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
     transform: rotate(7deg);
 }
 
@@ -721,6 +819,10 @@ h2 {
 }
 
 .er-footer-commons {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
     transform: rotate(90deg);
     color: yellow;
     margin-left: auto;
@@ -805,6 +907,38 @@ h2 {
         width: 125px;
         height: 125px;
     }
+    @-webkit-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 10vh;
+        }
+    }
+    @-moz-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 10vh;
+        }
+    }
+    @-ms-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 10vh;
+        }
+    }
+    @-o-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 10vh;
+        }
+    }
     @keyframes sticker {
         from {
             top: 110vh
@@ -828,6 +962,38 @@ h2 {
     }
     .er-frontpage-download {
         top: 56vh;
+    }
+    @-webkit-keyframes download {
+        from {
+            top: 110vh;
+        }
+        to {
+            top: 56vh;
+        }
+    }
+    @-moz-keyframes download {
+        from {
+            top: 110vh;
+        }
+        to {
+            top: 56vh;
+        }
+    }
+    @-ms-keyframes download {
+        from {
+            top: 110vh;
+        }
+        to {
+            top: 56vh;
+        }
+    }
+    @-o-keyframes download {
+        from {
+            top: 110vh;
+        }
+        to {
+            top: 56vh;
+        }
     }
     @keyframes download {
         from {
@@ -872,6 +1038,38 @@ h2 {
         width: 150px;
         height: 150px;
     }
+    @-webkit-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 12vh;
+        }
+    }
+    @-moz-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 12vh;
+        }
+    }
+    @-ms-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 12vh;
+        }
+    }
+    @-o-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 12vh;
+        }
+    }
     @keyframes sticker {
         from {
             top: 110vh
@@ -915,12 +1113,20 @@ h2 {
         position: relative;
         top: 50%;
         box-shadow: 5px 5px 5px #a59172;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
         transform: translateY(-50%);
     }
     .er-social {
         position: fixed;
         z-index: 1;
         left: 3vw;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
         transform: translateX(-50%);
         overflow-x: hidden;
         height: 100%;
@@ -949,6 +1155,38 @@ h2 {
         right: 6vw;
         width: 175px;
         height: 175px;
+    }
+    @-webkit-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 15vh;
+        }
+    }
+    @-moz-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 15vh;
+        }
+    }
+    @-ms-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 15vh;
+        }
+    }
+    @-o-keyframes sticker {
+        from {
+            top: 110vh
+        }
+        to {
+            top: 15vh;
+        }
     }
     @keyframes sticker {
         from {

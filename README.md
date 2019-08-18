@@ -87,8 +87,10 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 
 
 ## Testing
-- [w3c Validation](https://validator.w3.org)
+- [w3c Markup Validation](https://validator.w3.org)
     - HTML validation: No errors
+- [w3c CSS Validation](https://jigsaw.w3.org/css-validator/validator)
+    - CSS validation: No errors
 
 ### Known issues
 - Background image not showing on google chrome mobile (Android)
