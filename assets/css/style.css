@@ -8,6 +8,7 @@ html {
 
 body {
     max-width: 100vw;
+    -ms-scroll-snap-type: none;
     scroll-snap-type: none;
     scroll-behavior: smooth;
     background-image: url("../images/front-transpa.png");
@@ -145,9 +146,7 @@ nav {
     position: absolute;
     left: 50vw;
     -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
     transform: translateX(-50%);
     letter-spacing: 8px;
     font-weight: 300;
@@ -237,11 +236,10 @@ nav {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
     transform: translateY(-50%);
     background-color: rgba(60, 60, 60, 0.1);
+    -webkit-box-shadow: 0px 0px 25px rgba(60, 60, 60);
     box-shadow: 0px 0px 25px rgba(60, 60, 60);
 }
 
@@ -256,10 +254,9 @@ nav {
     overflow: hidden;
     line-height: 2em;
     -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg);
+    -webkit-box-shadow: 1px 1px 1px #ffffffa1;
     box-shadow: 1px 1px 1px #ffffffa1;
     background-color: rgba(255, 255, 255, 0.61);
 }
@@ -282,11 +279,10 @@ h2 {
     line-height: 2em;
     margin-top: 0em;
     margin-bottom: 2em;
+    -webkit-box-shadow: 5px 5px 5px #a59172;
     box-shadow: 5px 5px 5px #a59172;
     -webkit-transform: rotate(-1deg);
-    -moz-transform: rotate(-1deg);
     -ms-transform: rotate(-1deg);
-    -o-transform: rotate(-1deg);
     transform: rotate(-1deg);
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -510,6 +506,7 @@ h2 {
     width: 75px;
     height: 75px;
     border-radius: 50%;
+    -webkit-box-shadow: -4px 2px 7px rgba(60, 60, 60);
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
     -webkit-animation: sticker 2s ease 1 normal;
     -moz-animation: sticker 2s ease 1 normal;
@@ -571,6 +568,7 @@ h2 {
     border-color: rgba(60, 60, 60);
     border: 1px;
     border-radius: 10px;
+    -webkit-box-shadow: -4px 2px 7px rgba(60, 60, 60);
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
     background-color: rgba(255, 255, 255, 0.83);
     transition: all .150s ease-in-out;
@@ -579,8 +577,6 @@ h2 {
     -ms-transition: all .150s ease-in-out;
     -o-transition: all .150s ease-in-out;
 }
-
-
 
 .er-button:hover {
     font-size: 1.2em;
@@ -591,6 +587,7 @@ h2 {
     outline: 0!important;
     color: rgba(255, 255, 255);
     background-color: rgba(60, 60, 60);
+    -webkit-box-shadow: 0px 0px 25px rgba(60, 60, 60);
     box-shadow: 0px 0px 25px rgba(60, 60, 60);
 }
 
@@ -600,9 +597,7 @@ h2 {
     position: absolute;
     left: 51.5vw;
     -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     top: 52vh;
     text-align: center;
@@ -667,12 +662,11 @@ h2 {
     height: 200px;
     border: 0px;
     border-radius: 3px;
+    -webkit-box-shadow: 5px 5px 5px #a59172;
     box-shadow: 5px 5px 5px #a59172;
     float: right;
     -webkit-transform: rotate(7deg);
-    -moz-transform: rotate(7deg);
     -ms-transform: rotate(7deg);
-    -o-transform: rotate(7deg);
     transform: rotate(7deg);
 }
 
@@ -720,6 +714,7 @@ h2 {
     font-size: 80%;
     font-weight: 300;
     text-align: right;
+    -webkit-box-shadow: 1px 1px 1px #ffffffa1;
     box-shadow: 1px 1px 1px #ffffffa1;
     background-color: rgba(255, 255, 255, 0.61);
 }
@@ -781,8 +776,6 @@ h2 {
 
 /* ----------------------------------------Back cover specifics */
 
-
-
 form {
     padding: 20px;
     margin-left: auto;
@@ -791,7 +784,28 @@ form {
     border-color: rgba(60, 60, 60);
     border: 1px;
     border-radius: 10px;
+    -webkit-box-shadow: -4px 2px 7px rgba(60, 60, 60);
     box-shadow: -4px 2px 7px rgba(60, 60, 60);
+}
+
+::-webkit-input-placeholder {
+    font-size: 80%;
+    color: rgba(60, 60, 60, 0.5);
+}
+
+::-moz-placeholder {
+    font-size: 80%;
+    color: rgba(60, 60, 60, 0.5);
+}
+
+:-ms-input-placeholder {
+    font-size: 80%;
+    color: rgba(60, 60, 60, 0.5);
+}
+
+::-ms-input-placeholder {
+    font-size: 80%;
+    color: rgba(60, 60, 60, 0.5);
 }
 
 ::placeholder {
@@ -803,6 +817,8 @@ form {
     position: relative;
     top: 11em;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     font-size: 70%;
 }
@@ -817,6 +833,7 @@ form {
 
 .er-form-button:active {
     outline: 0!important;
+    -webkit-box-shadow: 0px 0px 25px rgba(60, 60, 60);
     box-shadow: 0px 0px 25px rgba(60, 60, 60);
 }
 
@@ -868,9 +885,7 @@ form {
 
 .er-footer-commons {
     -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
     transform: rotate(90deg);
     color: yellow;
     margin-left: auto;
@@ -941,6 +956,7 @@ form {
 
 @media(min-width: 576px) {
     body {
+        -ms-scroll-snap-type: y proximity;
         scroll-snap-type: y proximity;
     }
     h2 {
@@ -1164,11 +1180,10 @@ form {
         border-radius: 50%;
         position: relative;
         top: 50%;
+        -webkit-box-shadow: 5px 5px 5px #a59172;
         box-shadow: 5px 5px 5px #a59172;
         -webkit-transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
         transform: translateY(-50%);
     }
     .er-social {
@@ -1176,9 +1191,7 @@ form {
         z-index: 1;
         left: 3vw;
         -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
         transform: translateX(-50%);
         overflow-x: hidden;
         height: 100%;

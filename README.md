@@ -78,6 +78,8 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
     - Fonts (Source code pro/Allerta Stencil)
 - [css-tricks](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php)
     - Responsive iframe for youtube
+- [Autoprefixer](https://autoprefixer.github.io)
+    - CSS prefixes for different browsers 
 - [Online-convert](https://image.online-convert.com/convert-to-ico)
     - Convert jpg image to ico for favicon
 - [Photoshop CS6](https://www.adobe.com/products/cs6.html)
