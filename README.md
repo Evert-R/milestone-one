@@ -43,7 +43,7 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 - Icons in the upper right corner of the sections to instantly align them vertically on the screen.
 - Arrow icons in the lower right corner to scroll a section up or down.
 - Mouse-hover tooltips for icons and links.
-- Smooth scrolling when you use the menu, so you see the whole page scroll by.
+- Smooth scrolling for menu items.
 - Static pictures below the sections for a nice scrolling effect.
 - Fully responsive design.
 - Always visible social media links at the left side on wider screens.
@@ -56,6 +56,7 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 - Releaseparty section with an embedded youtube video of the releaseparty.
 - Back cover of the record.
 - Footer with credits and links to contributers to both the website as the record.
+- Form to sign up for future updates by mail.
 
 ### Optional Features
 - Option to switch to the dutch language.
@@ -102,23 +103,26 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 ## Deployment
 > The audio files are hosted at: 
 > [boembep.rotmuziek.nl](https://boembep.rotmuziek.nl)
-> This is my own domain, wich will also hold the website once it is completed and aproved.
+> This is my own domain, wich will also host the website once it is completed and aproved.
 
 ### Github Pages
-- This project was deployed via github pages from the ```master branch```
-    - ```Goto the repository on Github: [Github](https://github.com/Evert-R/milestone-one)```
-    - ```Goto 'Settings'```
-    - ```Select 'Github pages'```
-    - ```Use the select source dropdown to select the master branch```
-    - ```Click 'Save'```
-    - ```The Github pages are now being built``` 
-    - [Click here to view the deployed website](https://evert-r.github.io/milestone-one)
+This project was deployed via github pages from the ```master branch```
+
+This was done following this procedure:
+1 Goto the repository on Github: [Github](https://github.com/Evert-R/milestone-one)
+2 Goto ```Settings```
+3 Select ```Github pages```
+4 Use the ```select source``` dropdown to select the ```master branch```
+5 Click ```Save```
+The Github pages are now being built.
+
+[Click here to view the deployed website](https://evert-r.github.io/milestone-one)
 
 ### Local
-- To run this website locally use the following command in your terminal
-    - ```git clone https://github.com/Evert-R/milestone-one.git```
-- To cut ties with this repository
-    - ```git remote rm origin```
+To clone this website locally use the following command in your terminal:
+```git clone https://github.com/Evert-R/milestone-one.git```
+To cut ties with this repository:
+```git remote rm origin```
 
 ### Live
 - To run this website live, copy all files and folders to the root directory of your webserver.
@@ -128,7 +132,7 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 ### Content
 - [Evert Rot](https://evertrot.nl)
     - Webdesign/coding
-    - About-section text.
+    - Text in the about section
 ### Media
 - [Pop-Eye/Colourcastle](https://www.colourcastle.nl)
     - Background-image/ Front album cover
