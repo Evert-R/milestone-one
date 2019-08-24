@@ -1,26 +1,30 @@
 # Project's name
-## De Ware Boembep
+### De Ware Boembep
 [https://evert-r.github.io/milestone-one](https://evert-r.github.io/milestone-one)
 
 ## UX
 
-### For who 
-- This website was created for the dutch Hip-Hop group 'The Chill Oud Posse' and their record label 'Dutch Hip-Hop Gems".
+### For who this website is created 
+This website was created for the dutch Hip-Hop group 'The Chill Oud Posse' and their record label 'Dutch Hip-Hop Gems".
 
-### targeted at
-- Worldwide Hip-Hop fans between their thirties and fifties. As some tracks, and much of the written content of the release, is in dutch the main fanbase will be from Holland. The main language however will be english, wich is common in this subculture. Leiden is the home city of the group so we expect most fans to be from there.
+### At who this website is targeted
+This website is targeted at worldwide Hip-Hop fans between their thirties and fifties. Leiden, in the Netherlands, is the home city of the group so we expect most fans to be from there. 
 
-### what does the group want to achieve with this
-- Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. It was planned then to release the music for free after some time of selling the record, as this is a non-profit project and the record was released in a limited edition. Its purpose was to be a collectors item as well as an historic documentation of the beginning of Hip-Hop in Leiden. This website will hold all the contents of the original release in digital form. The music will be available as a soundcloud stream, as well as individual downloads. All album art will be viewable in a carousel. As an addition the video of the release party, wich was held at 'Nowas recordstore' in Leiden, will be availabe as a youtube stream from the website. 
+### Wich language is used and why
+As some tracks, and much of the written content of the release, is in dutch the main fanbase will be from Holland. The main language however will be english, wich is common in this subculture. 
+
+### What does the group want to achieve with this website
+Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. As this was a non-profit project, and the record was released in a limited edition, it was planned from the start to release the music for free after some time of selling the record. Because this collectors item was also ment as an historic documentation of the beginning of the Hip-Hop scene in Leiden, this website will hold all the music, artwork and articles of the original release in digital form, so it will be available for everyone.
 
 ### What does the record label wish to achieve with this website
 - The record label wishes to raise some attention back to the label as the upcoming record (DG003) is about to be released as well as to sell some more records of this release (DG002).
 
 ### User stories
 - As a user who already bought the record I want to be able to stream or download the music to be able to listen to it everywhere I want. I'll also want to see the video of the releaseparty and be notified of any future projects.
-- As a user who missed the record release I would want the same thing as above plus information about where to buy the record.
+- As a user who missed the record release I would want the same thing as above plus information about where to buy the original record.
 - As a user with no prior knowledge I want all of the above plus links to all the information about the initial project.
 - As a recordstore owner or an artist I would want to be linked back to the record label.
+- As a historian I would want to read all the articles that where included in the release.
 
 ### Mock-ups
 The mock-ups for this project are in the UXD folder wich you will find in the root of this project.
@@ -101,28 +105,28 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 - Overlay navigation not working on medium width
 
 ## Deployment
-> The audio files are hosted at: 
-> [boembep.rotmuziek.nl](https://boembep.rotmuziek.nl)
-> This is my own domain, wich will also host the website once it is completed and aproved.
-
 ### Github Pages
 This project was deployed via github pages from the ```master branch```
 
-This was done following this procedure:
-1 Goto the repository on Github: [Github](https://github.com/Evert-R/milestone-one)
-2 Goto ```Settings```
-3 Select ```Github pages```
-4 Use the ```select source``` dropdown to select the ```master branch```
-5 Click ```Save```
+#### This was done following this procedure:
+1. Goto the repository on Github: [Github](https://github.com/Evert-R/milestone-one)
+2. Goto ```Settings```
+3. Select ```Github pages```
+4. Use the ```select source``` dropdown to select the ```master branch```
+5. Click ```Save```
 The Github pages are now being built.
 
 [Click here to view the deployed website](https://evert-r.github.io/milestone-one)
 
+> The audio files are hosted at: 
+> [boembep.rotmuziek.nl](https://boembep.rotmuziek.nl)
+> This is my own domain, wich will also host the website once it is completed and aproved.
+
 ### Local
 To clone this website locally use the following command in your terminal:
-```git clone https://github.com/Evert-R/milestone-one.git```
+- ```git clone https://github.com/Evert-R/milestone-one.git```
 To cut ties with this repository:
-```git remote rm origin```
+- ```git remote rm origin```
 
 ### Live
 - To run this website live, copy all files and folders to the root directory of your webserver.
