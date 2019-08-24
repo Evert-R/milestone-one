@@ -93,7 +93,8 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
     - CSS validation: No errors
 
 ### Known issues
-- Background image not showing on google chrome mobile (Android)
+- Fixed background image not showing on google chrome mobile (Android)
+    - Fixed backgrounds are disabled for this browser. I fixed this by putting a second background image on top of the fixed one, wich will scroll away as you proceed. It kinda takes away the effect, but at otherwise you'll have a blank screen on chrome mobile, wich is a very common browser. In the future I will fix this so the extra background will only be visible on chrome mobile. That's out of the scope for this project as it will require php or javascript.
 
 ### Fixed issues
 - Overlay navigation not working on medium width
