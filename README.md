@@ -21,11 +21,11 @@ Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years 
 The record label wishes to raise some attention back to the label as the upcoming record (DG003) is about to be released as well as to sell some more records of this release (DG002).
 
 ### User stories
-- As a user who already bought the record I want to be able to stream or download the music and listen to it everywhere I want. I'll also want to see the video of the releaseparty and be notified of any future projects.
-- As a user who missed the record release I would want the same thing as above plus information about where to buy the original record.
-- As a user with no prior knowledge I want all of the above plus links to all the information about the initial project.
-- As a recordstore owner or an artist I would want to be linked back to the record label.
-- As a historian I would want to read all the articles that were included in the release.
+1. As a user who already bought the record I want to be able to stream or download the music and listen to it everywhere I want. I'll also want to see the video of the releaseparty and be notified of any future projects.
+2. As a user who missed the record release I would want the same thing as above plus information about where to buy the original record.
+3. As a user with no prior knowledge I want all of the above plus links to all the information about the initial project.
+4. As a recordstore owner or an artist I would want to be linked back to the record label.
+5. As a historian I would want to read all the articles that were included in the release.
 
 ### Mock-ups
 The mock-ups for this project are in the UXD folder wich you will find in the root of this project.
@@ -101,10 +101,21 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 
 
 ## Testing
+### Tools
 - [w3c Markup Validation](https://validator.w3.org)
     - HTML validation: No errors
 - [w3c CSS Validation](https://jigsaw.w3.org/css-validator/validator)
     - CSS validation: No errors
+
+### Users
+1. As a user who already bought the record I clicked on the download button on the front page and went straight to the download section. Meanwhile I see the page scroll by so after I downloaded the music I go back to discover the rest while listening to the music from the stream section.
+2. As a user who missed the record release I selected the musical note on the menu to go straight to the stream section. From there I click on the shopping cart wich leads me to the website where I can buy the record.
+3. As a user with no prior knowledge I scrolled down manually to read the about section. Scrolled further to listen to the music, then dowload the music, watch the artwork, view the releaseparty video, and finally end up at the credits following links to all the contributors of this project.
+4. As a recordstore owner or an artist I click on the logo of the record company to go to its website.
+5. As a historian I clicked on the eye in the menu to go directly to the articles and artworks in the carousel.
+
+### Responsive behaviour
+
 
 ### Known issues
 - Fixed background image not showing on google chrome mobile (Android)
