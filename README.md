@@ -1,5 +1,6 @@
-# Project's name
-### De Ware Boembep
+# De Ware Boembep
+
+## Deployed version 
 [https://evert-r.github.io/milestone-one](https://evert-r.github.io/milestone-one)
 
 ## UX
@@ -8,7 +9,7 @@
 This website was created for the dutch Hip-Hop group 'The Chill Oud Posse' and their record label 'Dutch Hip-Hop Gems".
 
 ### At who this website is targeted
-This website is targeted at worldwide Hip-Hop fans between their thirties and fifties. Leiden, in the Netherlands, is the home city of the group so we expect most fans to be from there. 
+This website is targeted at worldwide Hip-Hop fans between their thirties and fifties. Leiden, in the Netherlands, is the home city of the group, so we expect most fans to be from there. 
 
 ### Wich language is used and why
 As some tracks, and much of the written content of the release, is in dutch the main fanbase will be from Holland. The main language however will be english, wich is common in this subculture. 
@@ -20,11 +21,11 @@ Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years 
 - The record label wishes to raise some attention back to the label as the upcoming record (DG003) is about to be released as well as to sell some more records of this release (DG002).
 
 ### User stories
-- As a user who already bought the record I want to be able to stream or download the music to be able to listen to it everywhere I want. I'll also want to see the video of the releaseparty and be notified of any future projects.
+- As a user who already bought the record I want to be able to stream or download the music and listen to it everywhere I want. I'll also want to see the video of the releaseparty and be notified of any future projects.
 - As a user who missed the record release I would want the same thing as above plus information about where to buy the original record.
 - As a user with no prior knowledge I want all of the above plus links to all the information about the initial project.
 - As a recordstore owner or an artist I would want to be linked back to the record label.
-- As a historian I would want to read all the articles that where included in the release.
+- As a historian I would want to read all the articles that were included in the release.
 
 ### Mock-ups
 The mock-ups for this project are in the UXD folder wich you will find in the root of this project.
@@ -32,12 +33,17 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - [Wireframe2](UXD/wareboembep-mockup-2.jpg)
 
 ### Concept
-This will be one long scrollable page, but with the feel of multiple pages. The first and last page will show the front and back cover of the vinyl release and in between you will find all the original content in digital form.
-The menu will allways be visible at the top of the screen and will show icons only. They will allways be the same, both on desktop as on mobile. The website is meant to be as intuitive and practical as possible. The information is mostly in the content provided.
+This will be one long scrollable page, but with the feel of multiple pages. The first and last page will show the front and back cover of the vinyl release and in between you will find all the original content in digital form. Thus simulating the record in its cover.
+
+The menu will always be visible at the top of the screen and will show icons only. They will allways be the same, both on desktop as on mobile. The website is meant to be as intuitive and practical as possible. The information is mostly in the content provided.
+
 The menu will visually scroll the page before you when you select an item, so you'll quickly be able to see what more there is to discover and also get a glimpse of the album-art wich is used as a visual effect between the sections.
+
 Each section will have arrows to scroll up or down as well as an icon to centralize the section on the screen. Also the scrolling will snap to the top of a section when you scroll by mouse or when swiping.
+
 On bigger screens there will be social media links on the left, on the smaller devices they will appear on the bottom of each section.
 The site will be fully responsive and optimized to be viewed on different screen sizes and devices.
+
 Scrolling down from the back-cover will bring you to the credits in the footer. Here you will also find a form to sign up for future updates.
  
 ### Basic features
