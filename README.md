@@ -102,13 +102,20 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - Overlay navigation not working on medium width
 
 ## Deployment
-- The audio files are hosted at [boembep.rotmuziek.nl](https://boembep.rotmuziek.nl)
-    - This is my own domain, wich will also hold the website once it is completed and aproved.
+> The audio files are hosted at: 
+> [boembep.rotmuziek.nl](https://boembep.rotmuziek.nl)
+> This is my own domain, wich will also hold the website once it is completed and aproved.
 
 ### Github Pages
 - This project was deployed via github pages from the '''master branch'''
-    - ```Settings -> GitHub Pages```
-    - [https://evert-r.github.io/milestone-one](https://evert-r.github.io/milestone-one)
+    1 ```Goto the repository on Github: [Github](https://github.com/Evert-R/milestone-one)```
+    2 ```Goto 'Settings'```
+    3 ```Select 'Github pages'```
+    4 ```Use the select source dropdown to select the master branch```
+    5 ```Click 'Save'```
+    6 ```The Github pages are now being built``` 
+    
+    [Click here to view the deployes website](https://evert-r.github.io/milestone-one)
 
 ### Local
 - To run this website locally use the following command in your terminal
