@@ -1,6 +1,6 @@
 # De Ware Boembep
 
-## Deployed version 
+### Deployed version 
 [https://evert-r.github.io/milestone-one](https://evert-r.github.io/milestone-one)
 
 ## UX
@@ -9,16 +9,16 @@
 This website was created for the dutch Hip-Hop group 'The Chill Oud Posse' and their record label 'Dutch Hip-Hop Gems".
 
 ### At who this website is targeted
-This website is targeted at worldwide Hip-Hop fans between their thirties and fifties. Leiden, in the Netherlands, is the home city of the group, so we expect most fans to be from there. 
+This website is targeted at worldwide Hip-Hop fans between their thirties and fifties. We expect most fans to be from Leiden, in the Netherlands, as this is the home city of the group. 
 
 ### Wich language is used and why
-As some tracks, and much of the written content of the release, is in dutch the main fanbase will be from Holland. The main language however will be english, wich is common in this subculture. 
+Though some tracks, and much of the written content of the release is in dutch, the main language for the website will be in english. This is common in this subculture. Offcourse this will also target more people. 
 
 ### What does the group want to achieve with this website
 Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. As this was a non-profit project, and the record was released in a limited edition, it was planned from the start to release the music for free after some time of selling the record. Because this collectors item was also ment as an historic documentation of the beginning of the Hip-Hop scene in Leiden, this website will hold all the music, artwork and articles of the original release in digital form, so it will be available for everyone.
 
 ### What does the record label wish to achieve with this website
-- The record label wishes to raise some attention back to the label as the upcoming record (DG003) is about to be released as well as to sell some more records of this release (DG002).
+The record label wishes to raise some attention back to the label as the upcoming record (DG003) is about to be released as well as to sell some more records of this release (DG002).
 
 ### User stories
 - As a user who already bought the record I want to be able to stream or download the music and listen to it everywhere I want. I'll also want to see the video of the releaseparty and be notified of any future projects.
@@ -33,15 +33,16 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - [Wireframe2](UXD/wareboembep-mockup-2.jpg)
 
 ### Concept
-This will be one long scrollable page, but with the feel of multiple pages. The first and last page will show the front and back cover of the vinyl release and in between you will find all the original content in digital form. Thus simulating the record in its cover.
+This will be one long scrollable page, but with the feel of multiple pages. The first and last page will show the front and back cover of the vinyl release with all the original content in digital form in between. Thus simulating the record in its cover.
 
 The menu will always be visible at the top of the screen and will show icons only. They will allways be the same, both on desktop as on mobile. The website is meant to be as intuitive and practical as possible. The information is mostly in the content provided.
 
 The menu will visually scroll the page before you when you select an item, so you'll quickly be able to see what more there is to discover and also get a glimpse of the album-art wich is used as a visual effect between the sections.
 
-Each section will have arrows to scroll up or down as well as an icon to centralize the section on the screen. Also the scrolling will snap to the top of a section when you scroll by mouse or when swiping.
+Each section will have arrows to scroll up or down as well as an icon to centralize the section on the screen. Also the scrolling will snap to the top of a section when you scroll by mouse or when swiping. This is to benefit the 'feel of multiple pages'.
 
-On bigger screens there will be social media links on the left, on the smaller devices they will appear on the bottom of each section.
+On bigger screens there will be social media links on the left, wich will always be visible. On the smaller devices they will appear on the bottom of each section.
+
 The site will be fully responsive and optimized to be viewed on different screen sizes and devices.
 
 Scrolling down from the back-cover will bring you to the credits in the footer. Here you will also find a form to sign up for future updates.
@@ -67,10 +68,12 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 - Back cover of the record.
 - Footer with credits and links to contributers to both the website as the record.
 - Form to sign up for future updates by mail.
+    - In this release the form will do nothing but reload the page, as its functionality is out of the scope of this project.
 
-### Optional Features
+### Optional Features to be implemented later
 - Option to switch to the dutch language.
 - Full screen art carousel in new tab
+- Functional form wich sends an email to the record company
 
 ## Technologies Used
 - [VSCode](https://code.visualstudio.com)
@@ -105,7 +108,7 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 
 ### Known issues
 - Fixed background image not showing on google chrome mobile (Android)
-    - Fixed backgrounds are disabled for this browser. I fixed this by putting a second background image on top of the fixed one, wich will scroll away as you proceed. It kinda takes away the original effect, but otherwise chrome mobile would show a blank front page. As this is a very common browser this is unacceptable. In the future I will fix this so the extra background will only be visible on chrome mobile, but for now it's out of the scope for this project as it will require php or javascript.
+    - Fixed backgrounds are disabled for this browser. I fixed this by putting a second background image on top of the fixed one, wich will scroll away as you proceed. It kinda takes away the original effect, but otherwise chrome mobile would show a blank front page. As this is a very common browser this would be unacceptable. In the future I will fix this so the extra background will only be visible on chrome mobile, but for now it's out of the scope for this project as it will require php or javascript.
 
 ### Fixed issues
 - Overlay navigation not working on medium width
