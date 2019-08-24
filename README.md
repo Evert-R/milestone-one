@@ -28,21 +28,19 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - [Wireframe2](UXD/wareboembep-mockup-2.jpg)
 
 ### Concept
-- This will be one long scrollable page, with the feel of multiple pages. 
-- The first and last page will only show the front and back cover of the record to imitate the real album with the digital content 'inside'. 
-- The menu will allways be visible at the top of the screen and will show icons only. They will allways be the same, both on desktop as on mobile. 
-- The menu items will visually scroll the page before you, so you'll quickly be able to see what more there is to discover and also get a glimpse of the album-art wich is also used between the sections. 
-- Each section will have arrows to scroll up or down as well as an icon to centralize the section on the screen. 
-- As an additon the scrolling will snap to the top of the section when you scroll by mouse or when swiping. 
-- The website is meant to be as intuitive and practical as possible. The information is mostly in the content provided. 
-- Scrolling down further from the back-cover or clicking another arrow will take you down to the credits in the footer with links to all contributors.
-- The site will be fully responsive and optimized to be viewed on different screen sizes and devices.
+This will be one long scrollable page, but with the feel of multiple pages. The first and last page will show the front and back cover of the vinyl release and in between you will find all the original content in digital form.
+The menu will allways be visible at the top of the screen and will show icons only. They will allways be the same, both on desktop as on mobile. The website is meant to be as intuitive and practical as possible. The information is mostly in the content provided.
+The menu will visually scroll the page before you when you select an item, so you'll quickly be able to see what more there is to discover and also get a glimpse of the album-art wich is used as a visual effect between the sections.
+Each section will have arrows to scroll up or down as well as an icon to centralize the section on the screen. Also the scrolling will snap to the top of a section when you scroll by mouse or when swiping.
+On bigger screens there will be social media links on the left, on the smaller devices they will appear on the bottom of each section.
+The site will be fully responsive and optimized to be viewed on different screen sizes and devices.
+Scrolling down from the back-cover will bring you to the credits in the footer. Here you will also find a form to sign up for future updates.
  
 ### Basic features
 - Long scrollable page with snapping to the sections.
 - Sticky top menu, wich makes it 'feel' like multiple pages.
 - Menu with icons only for an intuitive design with an alternative for visual impaired people.
-- Icons in the upper right corner of the sections to instantly center them on the screen.
+- Icons in the upper right corner of the sections to instantly align them vertically on the screen.
 - Arrow icons in the lower right corner to scroll a section up or down.
 - Mouse-hover tooltips for icons and links.
 - Smooth scrolling when you use the menu, so you see the whole page scroll by.
@@ -53,7 +51,7 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 - Record front cover as first page wich will always be visible behind the other transparent pages.
 - Info section with a short introduction.
 - Stream section with an embedded soundcloud playlist.
-- Download section for the MP3/Flac version of the record.
+- Download section for the MP3/Flac version of the record with help info on zip-files.
 - Cover-art section to showcase the album-art.
 - Releaseparty section with an embedded youtube video of the releaseparty.
 - Back cover of the record.
@@ -96,7 +94,7 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 
 ### Known issues
 - Fixed background image not showing on google chrome mobile (Android)
-    - Fixed backgrounds are disabled for this browser. I fixed this by putting a second background image on top of the fixed one, wich will scroll away as you proceed. It kinda takes away the effect, but at otherwise you'll have a blank screen on chrome mobile, wich is a very common browser. In the future I will fix this so the extra background will only be visible on chrome mobile. That's out of the scope for this project as it will require php or javascript.
+    - Fixed backgrounds are disabled for this browser. I fixed this by putting a second background image on top of the fixed one, wich will scroll away as you proceed. It kinda takes away the original effect, but otherwise chrome mobile would show a blank front page. As this is a very common browser this is unacceptable. In the future I will fix this so the extra background will only be visible on chrome mobile, but for now it's out of the scope for this project as it will require php or javascript.
 
 ### Fixed issues
 - Overlay navigation not working on medium width
@@ -107,15 +105,14 @@ The mock-ups for this project are in the UXD folder wich you will find in the ro
 > This is my own domain, wich will also hold the website once it is completed and aproved.
 
 ### Github Pages
-- This project was deployed via github pages from the '''master branch'''
-    1 ```Goto the repository on Github: [Github](https://github.com/Evert-R/milestone-one)```
-    2 ```Goto 'Settings'```
-    3 ```Select 'Github pages'```
-    4 ```Use the select source dropdown to select the master branch```
-    5 ```Click 'Save'```
-    6 ```The Github pages are now being built``` 
-    
-    [Click here to view the deployes website](https://evert-r.github.io/milestone-one)
+- This project was deployed via github pages from the ```master branch```
+    - ```Goto the repository on Github: [Github](https://github.com/Evert-R/milestone-one)```
+    - ```Goto 'Settings'```
+    - ```Select 'Github pages'```
+    - ```Use the select source dropdown to select the master branch```
+    - ```Click 'Save'```
+    - ```The Github pages are now being built``` 
+    - [Click here to view the deployed website](https://evert-r.github.io/milestone-one)
 
 ### Local
 - To run this website locally use the following command in your terminal
