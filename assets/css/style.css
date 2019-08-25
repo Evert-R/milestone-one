@@ -50,6 +50,10 @@ a:hover {
     text-decoration: none;
 }
 
+a:active {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.5);
+}
+
 h1, h3 {
     font-family: 'Source Code Pro', monospace;
     text-align: center;
@@ -115,29 +119,36 @@ nav {
     margin-right: auto;
 }
 
+.er-nav-icons a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.er-nav-icons a:hover {
+    color: rgba(255, 255, 255);
+}
+
+.er-nav-icons a:active {
+    color: rgba(255, 255, 255, 0.2)!important;
+}
+
 .er-menu-icon {
     font-size: 1.6em;
     text-align: center;
 }
 
 .er-menu-icon a {
-    color: rgba(255, 255, 255, 0.8);
     text-shadow: 0px 0px 7px rgba(178, 43, 43, 0.2);
 }
 
-.er-menu-icon-arrow a {
-    color: rgba(255, 255, 255, 0.4);
-}
-
 .er-menu-icon a:hover {
-    color: rgba(255, 255, 255)!important;
     font-size: 1.1em;
     text-shadow: 0px 0px 7px rgba(178, 43, 43, 0.1);
 }
 
-.er-menu-icon a:active {
-    color: rgba(255, 255, 255, 0.2)!important;
-    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.5);
+.er-menu-icon a:active {}
+
+.er-menu-icon-arrow a {
+    color: rgba(255, 255, 255, 0.4);
 }
 
 .er-nav-boembep {
@@ -365,6 +376,10 @@ h2 {
     color: rgba(60, 60, 60, 0.8);
 }
 
+.er-social a:hover {
+    font-size: 1.1em;
+}
+
 .er-social a:active {
     color: rgba(60, 60, 60, 0.1)!important;
 }
@@ -373,55 +388,30 @@ h2 {
     top: 13vh;
 }
 
-#er-social-first a:hover {
-    font-size: 1.1em;
-    color: rgba(61, 91, 153);
-}
-
 #er-social-second {
     top: 26vh;
-}
-
-#er-social-second a:hover {
-    font-size: 1.1em;
-    color: rgba(224, 80, 95);
 }
 
 #er-social-third {
     top: 39vh
 }
 
-#er-social-third a:hover {
-    font-size: 1.1em;
-    color: rgb(225, 85, 0);
-}
-
 #er-social-fourth {
     top: 52vh;
 }
 
-#er-social-fourth a:hover {
-    font-size: 1.1em;
-    color: rgba(255, 0, 0);
-}
-
-#er-social-fifth {
+#er-social-sixth {
     top: 81vh;
 }
 
-#er-social-fifth img {
+#er-social-sixth img {
     margin: 0px;
     margin-top: 8px;
     left: 3vw;
 }
 
-#er-social-shopping {
+#er-social-fifth {
     top: 65vh;
-}
-
-#er-social-shopping a:hover {
-    font-size: 1.1em;
-    color: rgba(249, 212, 108, 0.9);
 }
 
 /* ----------------------------------------Social icons horizontal (mobile) */
@@ -440,58 +430,29 @@ h2 {
     color: rgba(60, 60, 60, 0.8);
 }
 
-.er-social-dutchgems img {
-    width: 40px;
-    margin-right: 30px;
-}
-
-.er-social-footer a {
-    color: rgba(255, 255, 255, 0.8);
-}
-
 .er-social-facebook a:hover {
-    font-size: 1.1em;
-    color: rgba(61, 91, 153);
+    color: rgba(61, 91, 153)!important;
 }
 
 .er-social-insta a:hover {
-    font-size: 1.1em;
-    color: rgba(224, 80, 95);
+    color: rgba(224, 80, 95)!important;
 }
 
 .er-social-soundcloud a:hover {
-    font-size: 1.1em;
-    color: rgb(225, 85, 0);
+    color: rgb(225, 85, 0)!important;
 }
 
 .er-social-youtube a:hover {
-    font-size: 1.1em;
-    color: rgba(255, 0, 0);
+    color: rgba(255, 0, 0)!important;
 }
 
 .er-social-shopping a:hover {
-    font-size: 1.1em;
-    color: rgba(249, 212, 108, 0.9);
+    color: rgba(249, 212, 108, 0.9)!important;
 }
 
-.er-social-facebook a:active {
-    color: rgba(255, 255, 255, 0.3);
-}
-
-.er-social-insta a:active {
-    color: rgba(255, 255, 255, 0.3);
-}
-
-.er-social-soundcloud a:active {
-    color: rgba(255, 255, 255, 0.3);
-}
-
-.er-social-youtube a:active {
-    color: rgba(255, 255, 255, 0.3);
-}
-
-.er-social-shopping a:active {
-    color: rgba(255, 255, 255, 0.3);
+.er-social-dutchgems img {
+    width: 40px;
+    margin-right: 30px;
 }
 
 /* ----------------------------------------Frontpage section specifics */
@@ -811,6 +772,10 @@ h2 {
 
 /* ----------------------------------------Footer */
 
+.er-social-footer a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
 .er-content-thirds {
     text-align: center;
 }
@@ -887,8 +852,6 @@ h2 {
 .er-footer-credit {
     color: rgba(255, 255, 255, 0.8);
 }
-
-
 
 form {
     padding: 25px 15px 25px 15px;
