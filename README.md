@@ -122,6 +122,8 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
     - Fixed backgrounds are disabled for this browser. I fixed this by putting a second background image on top of the fixed one, wich will scroll away as you proceed. It kinda takes away the original effect, but otherwise chrome mobile would show a blank front page. As this is a very common browser this would be unacceptable. In the future I will fix this so the extra background will only be visible on chrome mobile, but for now it's out of the scope for this project as it will require php or javascript.
 
 ### Fixed issues
+- Menu is not centered
+    - Used translateX to make up for the letter spacing
 - Overlay navigation not working on medium width
 
 ## Deployment

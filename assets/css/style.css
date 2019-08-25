@@ -112,7 +112,7 @@ nav {
 }
 
 .er-nav-icons {
-    margin: auto;
+    transform: translateX(0.5em);
     margin-left: auto;
     margin-right: auto;
 }
