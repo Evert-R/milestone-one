@@ -888,8 +888,10 @@ h2 {
     color: rgba(255, 255, 255, 0.8);
 }
 
+
+
 form {
-    padding: 15px;
+    padding: 25px 15px 25px 15px;
     color: rgba(255, 255, 255, 0.8);
 }
 
