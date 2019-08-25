@@ -124,7 +124,8 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 ### Fixed issues
 - Menu is not centered
     - Used translateX to make up for the letter spacing
-- Overlay navigation not working on medium width
+- Overlay navigation and social buttons not centered
+    - removed the letter spacing for these items
 
 ## Deployment
 ### Github Pages

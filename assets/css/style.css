@@ -47,7 +47,6 @@ a {
 }
 
 a:hover {
-    color: rgba(255, 255, 255);
     text-decoration: none;
 }
 
@@ -72,7 +71,7 @@ h4 {
 }
 
 h5 {
-    color: rgba(255, 255, 255,0.9);
+    color: rgba(255, 255, 255, 0.9);
     text-align: center;
     padding-bottom: 0.5em;
 }
@@ -112,7 +111,10 @@ nav {
 }
 
 .er-nav-icons {
-    transform: translateX(0.5em);
+    letter-spacing: 1em;
+    -ms-transform: translateX(0.5em);
+    -webkit-transform: translateX(0.5em);
+    transform: translateX(1em);
     margin-left: auto;
     margin-right: auto;
 }
@@ -120,7 +122,6 @@ nav {
 .er-menu-icon {
     font-size: 1.6em;
     text-align: center;
-    letter-spacing: 0.50em;
 }
 
 .er-menu-icon a {
@@ -305,7 +306,7 @@ h2 {
     z-index: 23;
     position: absolute;
     top: 5.5em;
-    right: 0vw;
+    right: 1em;
     color: rgba(60, 60, 60, 0.4);
 }
 
@@ -325,8 +326,7 @@ h2 {
 .er-arrow {
     z-index: 23;
     position: absolute;
-    right: 0vw;
-    text-align: left;
+    right: 1em;
     color: rgba(178, 43, 43, 0.7);
 }
 
@@ -370,7 +370,7 @@ h2 {
 }
 
 .er-social a:active {
-    color: rgba(60, 60, 60, 0.1)!important;
+    color: rgba(60, 60, 60, 0.1);
 }
 
 #er-social-first {
@@ -441,7 +441,7 @@ h2 {
 }
 
 .er-social-mobile a {
-    color: rgba(60, 60, 60, 0.8)!important;
+    color: rgba(60, 60, 60, 0.8);
 }
 
 .er-social-dutchgems img {
@@ -450,52 +450,52 @@ h2 {
 }
 
 .er-social-footer a {
-    color: rgba(255, 255, 255, 0.8)!important;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .er-social-facebook a:hover {
     font-size: 110%;
-    color: rgba(61, 91, 153)!important;
+    color: rgba(61, 91, 153);
 }
 
 .er-social-insta a:hover {
     font-size: 110%;
-    color: rgba(224, 80, 95)!important;
+    color: rgba(224, 80, 95);
 }
 
 .er-social-soundcloud a:hover {
     font-size: 110%;
-    color: rgb(225, 85, 0)!important;
+    color: rgb(225, 85, 0);
 }
 
 .er-social-youtube a:hover {
     font-size: 110%;
-    color: rgba(255, 0, 0)!important;
+    color: rgba(255, 0, 0);
 }
 
 .er-social-shopping a:hover {
     font-size: 110%;
-    color: rgba(249, 212, 108, 0.9)!important;
+    color: rgba(249, 212, 108, 0.9);
 }
 
 .er-social-facebook a:active {
-    color: rgba(255, 255, 255, 0.3)!important;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .er-social-insta a:active {
-    color: rgba(255, 255, 255, 0.3)!important;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .er-social-soundcloud a:active {
-    color: rgba(255, 255, 255, 0.3)!important;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .er-social-youtube a:active {
-    color: rgba(255, 255, 255, 0.3)!important;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .er-social-shopping a:active {
-    color: rgba(255, 255, 255, 0.3)!important;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 /* ----------------------------------------Frontpage section specifics */
@@ -693,6 +693,7 @@ h2 {
 
 .er-file-download a:hover {
     color: rgba(173, 33, 33, 0.95);
+    font-size: 101%;
 }
 
 .er-file-download a:active {
@@ -726,16 +727,17 @@ h2 {
 }
 
 .er-file-tip {
+    color: rgba(0, 0, 0, 0.7);
     font-size: 0.9em;
 }
 
 .er-file-tip a {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.4);
     font-size: 90%;
 }
 
 .er-file-tip a:hover {
-    color: rgba(0, 0, 0)!important;
+    color: rgba(0, 0, 0);
     font-size: 120%;
 }
 
@@ -776,8 +778,6 @@ h2 {
 }
 
 /* ----------------------------------------Back cover specifics */
-
-
 
 /* ----------------------------------------Scrolling image section dividers */
 
@@ -844,15 +844,15 @@ h2 {
 }
 
 .er-footer a {
-    color: rgba(255, 255, 255, 0.8)!important;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .er-footer a:hover {
-    color: rgba(255, 255, 255)!important;
+    color: rgba(255, 255, 255);
 }
 
 .er-footer a:active {
-    color: rgba(255, 255, 255, 0.3)!important;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .er-footer-block {
@@ -894,8 +894,7 @@ h2 {
 
 form {
     padding: 15px;
-    color: rgba(255, 255, 255,0.8);
-    
+    color: rgba(255, 255, 255, 0.8);
 }
 
 ::-webkit-input-placeholder {
