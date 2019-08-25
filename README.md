@@ -134,6 +134,7 @@ This project was deployed via github pages from the ```master branch```
 3. Select ```Github pages```
 4. Use the ```select source``` dropdown to select the ```master branch```
 5. Click ```Save```
+
 The Github pages are now being built.
 
 [Click here to view the deployed website](https://evert-r.github.io/milestone-one)
@@ -145,6 +146,7 @@ The Github pages are now being built.
 ### Local
 To clone this website locally use the following command in your terminal:
 - ```git clone https://github.com/Evert-R/milestone-one.git```
+
 To cut ties with this repository:
 - ```git remote rm origin```
 
