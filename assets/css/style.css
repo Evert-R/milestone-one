@@ -15,7 +15,7 @@ body {
     background-attachment: fixed;
     background-origin: content-box;
     font-family: 'Source Code Pro', monospace;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgba(60, 60, 60);
 }
 
@@ -913,7 +913,7 @@ form {
 /* --------------------------576 - SM */
 
 @media(min-width: 576px) {
-    body {
+    body {        
         -ms-scroll-snap-type: y proximity;
         scroll-snap-type: y proximity;
     }
@@ -974,6 +974,9 @@ form {
 /* --------------------------768 - MD */
 
 @media(min-width: 768px) {
+    body {
+        font-size: 1.2rem;
+    }
     .er-nav-icons {
         position: absolute;
         right: 0px;

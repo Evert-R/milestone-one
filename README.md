@@ -106,7 +106,9 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
     - HTML validation: No errors
 - [w3c CSS Validation](https://jigsaw.w3.org/css-validator/validator)
     - CSS validation: No errors
-
+- [Chrome development tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Css / responsive behaviour
+    
 ### Users
 1. As a user who already bought the record I clicked on the download button on the front page and went straight to the download section. Meanwhile I see the page scroll by so after I downloaded the music I go back to discover the rest while listening to the music from the stream section.
 2. As a user who missed the record release I selected the musical note on the menu to go straight to the stream section. From there I click on the shopping cart wich leads me to the website where I can buy the record.
@@ -115,6 +117,7 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 5. As a historian I clicked on the eye in the menu to go directly to the articles and artworks in the carousel.
 
 ### Responsive behaviour
+#### 360px to 576
 
 
 ### Known issues
