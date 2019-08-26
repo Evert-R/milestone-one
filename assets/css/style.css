@@ -1,4 +1,6 @@
-/* ----------------------------------------Code Institute Milestone-1 - Evert Rot */
+/* ----------------------------------------Code Institute Milestone-1 - Evert Rot*/
+
+/* Classes and id's that start with 'er-' are my own */
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:100,200,300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
@@ -34,7 +36,7 @@ p {
     font-weight: 600;
 }
 
-a {
+a, img {
     text-decoration: none;
     transition: all .200s ease-in-out;
     -webkit-transition: all .200s ease-in-out;
@@ -398,14 +400,14 @@ nav {
 }
 
 #er-social-sixth img {
-    width: 75px;
+    width: 55px;
     margin: 0px;
     margin-top: 8px;
     left: 3vw;
 }
 
 #er-social-sixth img:hover {
-    width: 77px;
+    width: 57px;
 }
 
 #er-social-fifth {
@@ -888,7 +890,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    font-size: 70%;
+    font-size: 0.7em;
     width: 20em;
     border: 2px solid rgba(255, 255, 255, 0.4);
     border-radius: 10px;
@@ -913,7 +915,7 @@ form {
 /* --------------------------576 - SM */
 
 @media(min-width: 576px) {
-    body {        
+    body {
         -ms-scroll-snap-type: y proximity;
         scroll-snap-type: y proximity;
     }
@@ -1046,10 +1048,6 @@ form {
         font-size: 2em;
         letter-spacing: 5px;
     }
-    .er-form {
-        top: 11em;
-        font-size: 0.7em;
-    }
 }
 
 /* --------------------------992 - LG */
@@ -1111,26 +1109,26 @@ form {
         margin-top: 0em;
         width: 66%;
         margin-left: 33%;
-        line-height: 3em;
-        height: 3em;
+        line-height: 2.5em;
+        height: 2.5em;
     }
     .er-content-footer {
         text-align: left;
         width: 65%;
-        margin-top: 3em;
+        margin-top: 2.5em;
         margin-right: 32%;
-        line-height: 3em;
-        height: 3em;
+        line-height: 2.5em;
+        height: 2.5em;
     }
     h2 {
         margin-right: 15px;
-        font-size: 2.5em;
-        letter-spacing: 5px;
+        font-size: 2em;
+        letter-spacing: 3px;
     }
     .er-footer-text {
         margin-right: 15px;
-        font-size: 2.5em;
-        letter-spacing: 5px;
+        font-size: 2em;
+        letter-spacing: 3px;
     }
     .er-content-block {
         margin: 0;
@@ -1180,6 +1178,28 @@ form {
 /* --------------------------1200 - XL */
 
 @media(min-width: 1200px) {
+    .er-content-header {
+        line-height: 3em;
+        height: 3em;
+    }
+    .er-content-footer {
+        line-height: 3em;
+        height: 3em;
+    }
+    h2 {
+        font-size: 2.5em;
+        letter-spacing: 5px;
+    }
+    .er-footer-text {
+        font-size: 2.5em;
+        letter-spacing: 5px;
+    }
+    #er-social-sixth img {
+        width: 75px;
+    }
+    #er-social-sixth img:hover {
+        width: 77px;
+    }
     .er-sticker {
         top: 15vh;
         right: 6vw;

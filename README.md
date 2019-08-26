@@ -99,7 +99,6 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 - [Steinberg Cubase 10](https://new.steinberg.net/cubase/) 
     - Converting music from Wav to Mp3 and FLAC
 
-
 ## Testing
 ### Tools
 - [w3c Markup Validation](https://validator.w3.org)
@@ -108,7 +107,7 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
     - CSS validation: No errors
 - [Chrome development tools](https://developers.google.com/web/tools/chrome-devtools)
     - Css / responsive behaviour
-    
+
 ### Users
 1. As a user who already bought the record I clicked on the download button on the front page and went straight to the download section. Meanwhile I see the page scroll by so after I downloaded the music I go back to discover the rest while listening to the music from the stream section.
 2. As a user who missed the record release I selected the musical note on the menu to go straight to the stream section. From there I click on the shopping cart wich leads me to the website where I can buy the record.
@@ -117,8 +116,35 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 5. As a historian I clicked on the eye in the menu to go directly to the articles and artworks in the carousel.
 
 ### Responsive behaviour
-#### 360px to 576
+#### 576 - 768
+- The content header and footer get a bit more letter spacing.
+- The front page album sticker get a bit bigger cause there's more room.
+- The frontpage shows a navigation arrow to make sure you scroll down.
 
+#### 768 - 992
+- The  name of the band is now in the navigation bar.
+- The menu aligns to the right.
+- In the lower right corner there are now arrows to scroll up or down.
+- The pages get a minimum height to make sure they fill the screen.
+- The size of the content header and footer text is enlarged.
+- The frontpage shows text above the download button.
+- The downloadbutton vertical position is corrected to comply with the background image.
+- The about section picture now comes under the text, otherwise you would only see the picture and maybe miss the text.
+- For the same reason the picture in teh stream section comes between the downloadboxes.
+- The album art section misses the section footer to make room for the carousel.
+
+##### 992 - 1200
+- The name of the record shows in the navigation bar.
+- The Social icons are fixed vertical on the left side of the screen.
+- The content of the section now appears in 2 or 3 columns.
+- The circled images are now smaller for this purpose.
+- The content headers only take 2/3 of the screen.
+- The footer is divided in 3 columns and show the creative commons decleration on the right.
+
+##### 1200 - 1920
+- The content header and footer are bigger.
+- The fronpage sticker is bigger and a bit more down.
+- The image carousel now shows its content header
 
 ### Known issues
 - Fixed background image not showing on google chrome mobile (Android)
