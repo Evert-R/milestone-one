@@ -6,7 +6,6 @@
 Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. As this was a non-profit project, and the record was released in a limited edition, it was planned from the start to release the music for free after some time of selling the record. Because this collectors item was also ment as an historic documentation of the beginning of the Hip-Hop scene in Leiden, this website will hold all the music, artwork and articles of the original release in digital form, so it will be available for everyone.
 
 ## UX
-
 ### For who this website is created 
 This website was created for the dutch Hip-Hop group 'The Chill Oud Posse' and their record label 'Dutch Hip-Hop Gems".
 
@@ -69,6 +68,7 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 - Releaseparty section with an embedded youtube video of the releaseparty.
 - Back cover of the record.
 - Footer with credits and links to contributers to both the website as the record.
+- Transparent background in the footer wich still matches the colour of the navigation bar
 - Form to sign up for future updates by mail.
     - In this release the form will do nothing but reload the page, as its functionality is out of the scope of this project.
 
@@ -116,6 +116,22 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 3. As a user with no prior knowledge I scrolled down manually to read the about section. Scrolled further to listen to the music, then dowload the music, watch the artwork, view the releaseparty video, and finally end up at the credits following links to all the contributors of this project.
 4. As a recordstore owner or an artist I click on the logo of the record company to go to its website.
 5. As a historian I clicked on the eye in the menu to go directly to the articles and artworks in the carousel.
+
+### Network used for review
+- Mentor sessions
+- Slack channel #peer-code-review
+
+### Links and content
+- I clicked all the meu items and watch the page scroll to the desired section
+- I followed all navigation arrows to the correct sections
+- I clicked all the center icons to center the sections
+- i scrolloed slowly to watch each section align itself whrough scroll alignment
+- I hovered over all the links and checked their behaviour
+- I clicked all the links and watch the right page open in a new tab
+- I downloaded all the tracks as mp3, flac and zip
+- I played the audio stream via the embedded soundcloud player
+- I watched the youtube video of the release party full screen and in a box
+- I scrolled through all the images in the carousel
 
 ### Form
 - I clicked sent
@@ -200,7 +216,6 @@ To cut ties with this repository:
 - To run this website live, copy all files and folders to the root directory of your webserver.
 
 ## Credits
-
 ### Content
 - [Evert Rot](https://evertrot.nl)
     - Webdesign/coding
@@ -216,5 +231,3 @@ To cut ties with this repository:
     - Music
 - [Evert Rot](https://evertrot.nl)
     - Releaseparty video
-
-### Acknowledgements
