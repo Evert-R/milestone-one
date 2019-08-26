@@ -153,7 +153,7 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 - The content of the section now appears in 2 or 3 columns.
 - The circled images are now smaller for this purpose.
 - The content headers only take 2/3 of the screen.
-- The footer is divided in 3 columns and show the creative commons decleration on the right.
+- The footer is divided in 3 columns and show the creative commons declaration on the right.
 
 ##### 1200 - 1920
 - The content header and footer are bigger.
