@@ -10,7 +10,6 @@ body {
     max-width: 100vw;
     background: url("../images/front-transpa.png") no-repeat fixed center;
     background-size: contain;
-    
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2rem;
     color: rgba(60, 60, 60);
@@ -54,8 +53,6 @@ h1, h3 {
     font-size: 1em;
     margin: 25px;
 }
-
-
 
 h2 {
     /* Used in the content header */
@@ -178,7 +175,12 @@ nav {
     top: -4em;
     min-height: 100vh;
     /* extra background because the fixed one doesn't show on chrome mobile */
-
+    background-image: url("../images/front-transpa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-size: contain;
 }
 
 #about {
