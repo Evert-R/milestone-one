@@ -8,12 +8,9 @@ html {
 
 body {
     max-width: 100vw;
-    background-image: url("../images/front-transpa.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-origin: content-box;
+    background: url("../images/front-transpa.png") no-repeat fixed center;
     background-size: contain;
+    
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2rem;
     color: rgba(60, 60, 60);
