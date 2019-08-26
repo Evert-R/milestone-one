@@ -117,7 +117,19 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 4. As a recordstore owner or an artist I click on the logo of the record company to go to its website.
 5. As a historian I clicked on the eye in the menu to go directly to the articles and artworks in the carousel.
 
-### Responsive behaviour
+### Form
+- I clicked sent
+    - I got a message that I need to put my name in.
+- I entered my name and clicked sent
+    - I got a message that I have to provide an email adress
+-  I entered my name and an email adress without @
+    - I got a message that the email adress is invalid
+-  I entered my name and an email adress without anything after the @
+    - I got a message that the email adress is invalid
+- I entered my name and a correct e-mail adress and clicked sent
+    - The form took me to the beginning of the page
+
+### Responsive behaviour (Chrome devtools)
 #### 576 - 768
 - The content header and footer get a bit more letter spacing.
 - The front page album sticker get a bit bigger cause there's more room.

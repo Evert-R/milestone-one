@@ -804,7 +804,8 @@ nav {
     margin-right: auto;
     padding: 5em 2em 3em 2em;
     min-height: 100vh;
-    background-color: rgba(60, 60, 60);
+    /* This will match the colour of the navigation bar while being transparent */
+    background-color: rgba(51, 49, 49, 0.95);
 }
 
 .er-footer a {
@@ -1161,6 +1162,11 @@ form {
     }
     .er-footer {
         width: 87vw;
+    }
+    .er-footer-content {
+        position: relative;
+        top: 50vh;
+        transform: translateY(-50%);
     }
     .er-button {
         font-size: 1.5em;
