@@ -3,6 +3,8 @@
 ### Deployed version 
 [https://evert-r.github.io/milestone-one](https://evert-r.github.io/milestone-one)
 
+Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. As this was a non-profit project, and the record was released in a limited edition, it was planned from the start to release the music for free after some time of selling the record. Because this collectors item was also ment as an historic documentation of the beginning of the Hip-Hop scene in Leiden, this website will hold all the music, artwork and articles of the original release in digital form, so it will be available for everyone.
+
 ## UX
 
 ### For who this website is created 
@@ -15,7 +17,7 @@ This website is targeted at worldwide Hip-Hop fans between their thirties and fi
 Though some tracks, and much of the written content of the release is in dutch, the main language for the website will be in english. This is common in this subculture. Offcourse this will also target more people. 
 
 ### What does the group want to achieve with this website
-Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. As this was a non-profit project, and the record was released in a limited edition, it was planned from the start to release the music for free after some time of selling the record. Because this collectors item was also ment as an historic documentation of the beginning of the Hip-Hop scene in Leiden, this website will hold all the music, artwork and articles of the original release in digital form, so it will be available for everyone.
+The group wishes to spread the music, the history and the artwork to a wider audience and release the video of the relaseparty. 
 
 ### What does the record label wish to achieve with this website
 The record label wishes to raise some attention back to the label as the upcoming record (DG003) is about to be released as well as to sell some more records of this release (DG002).
@@ -128,9 +130,9 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 - The pages get a minimum height to make sure they fill the screen.
 - The size of the content header and footer text is enlarged.
 - The frontpage shows text above the download button.
-- The downloadbutton vertical position is corrected to comply with the background image.
+- The downloadbutton's vertical position is corrected to comply with the background image.
 - The about section picture now comes under the text, otherwise you would only see the picture and maybe miss the text.
-- For the same reason the picture in teh stream section comes between the downloadboxes.
+- For the same reason the picture in the stream section comes between the downloadboxes.
 - The album art section misses the section footer to make room for the carousel.
 
 ##### 992 - 1200
@@ -143,8 +145,8 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 
 ##### 1200 - 1920
 - The content header and footer are bigger.
-- The fronpage sticker is bigger and a bit more down.
-- The image carousel now shows its content header
+- The frontpage sticker is bigger and a bit more down.
+- The image carousel now also looses its content header to make room.
 
 ### Known issues
 - Fixed background image not showing on google chrome mobile (Android)
