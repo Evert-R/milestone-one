@@ -924,6 +924,12 @@ form {
     h2 {
         letter-spacing: 5px;
     }
+    .er-nav-icons {
+        letter-spacing: 1.5em;
+        -ms-transform: translateX(0.9em);
+        -webkit-transform: translateX(0.9em);
+        transform: translateX(0.9em);
+    }
     .er-footer-text {
         letter-spacing: 5px;
     }
@@ -982,6 +988,10 @@ form {
         font-size: 1.2rem;
     }
     .er-nav-icons {
+        letter-spacing: 1em;
+        -ms-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
         position: absolute;
         right: 0px;
         margin-right: 25px;
