@@ -3,7 +3,7 @@
 ### Deployed version 
 [https://evert-r.github.io/milestone-one](https://evert-r.github.io/milestone-one)
 
-Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. As this was a non-profit project, and the record was released in a limited edition, it was planned from the start to release the music for free after some time of selling the record. Because this collectors item was also ment as an historic documentation of the beginning of the Hip-Hop scene in Leiden, this website will hold all the music, artwork and articles of the original release in digital form, so it will be available for everyone.
+Last year the Chill Oud Posse released a 12" vinyl record to celebrate 30 years of music making, as well as to honour a band member that had recently passed away. As this was a non-profit project, and the record was released in a limited edition, it was planned from the start to release the music for free after some time of selling the record. Because this collectors item was also ment as an historic documentation of the beginning of the Hip-Hop scene in Leiden, this website will hold all the music, artwork and articles of the original release in digital form, so it will be available for everyone. Also the official video of the releaseparty will be available for the first time. 
 
 ## UX
 ### For who this website is created 
@@ -125,13 +125,14 @@ Scrolling down from the back-cover will bring you to the credits in the footer. 
 - I clicked all the meu items and watch the page scroll to the desired section
 - I followed all navigation arrows to the correct sections
 - I clicked all the center icons to center the sections
-- i scrolloed slowly to watch each section align itself whrough scroll alignment
+- i scrolled slowly to watch each section align itself whrough scroll alignment
 - I hovered over all the links and checked their behaviour
 - I clicked all the links and watch the right page open in a new tab
 - I downloaded all the tracks as mp3, flac and zip
 - I played the audio stream via the embedded soundcloud player
 - I watched the youtube video of the release party full screen and in a box
 - I scrolled through all the images in the carousel
+- I clicked all the links in the readme and ended up at all the right pages
 
 ### Form
 - I clicked sent
